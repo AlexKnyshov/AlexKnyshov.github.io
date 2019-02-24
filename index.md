@@ -1,3 +1,6 @@
+---
+layout: default2
+---
 ## Welcome to GitHub Pages
 
 Test 1
