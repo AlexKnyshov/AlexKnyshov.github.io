@@ -34,7 +34,7 @@
       </section>
 
       <footer>
-        <p>Generated on {{ site.time }}</p>
+        <p>Generated on {{ site.time | date: "%c" }}</p>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
@@ -51,4 +51,3 @@
     {% endif %}
   </body>
 </html>
-
