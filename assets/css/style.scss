@@ -11,7 +11,7 @@ a.Pycustom {
 
 /* Wrapper */
 .wrapper {
-  width:1280px;
+  width:1500px;
 }
 
 /* Header */
@@ -37,7 +37,7 @@ header {
 /* Section - for main page content */
 
 section {
-  width:1040px;
+  width:1200px;
   float:right;
   padding-bottom:50px;
 }
@@ -53,7 +53,7 @@ footer {
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: 1280px) {
+@media print, screen and (max-width: 1500px) {
 
   div.wrapper {
     width:auto;
