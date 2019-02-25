@@ -8,11 +8,15 @@ a.Rcustom {
 a.Pycustom {
         background: url(../images/Py-small.png) no-repeat 1px;
 }
+/* Wrapper */
+.wrapper {
+  width:1200px;
+}
 
 /* Section - for main page content */
 
 section {
-  width:1000px;
+  width:650px;
   float:right;
   padding-bottom:50px;
 }
