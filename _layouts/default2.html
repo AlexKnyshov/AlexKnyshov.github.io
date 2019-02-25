@@ -15,8 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        <h1 class="header">{{ site.title }}</h1>
+        <p class="header">{{ site.description }}</p>
 
         <ul>
           {% if site.show_downloads %}
@@ -24,20 +24,10 @@
             <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
           {% endif %}
           <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
+          <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
+          <li><a href="{{ site.url }}/blog_posts.html">Blog posts</a></li>
+          <li><a class="buttons github" href="https://github.com/AlexKnyshov/main_repo">My Main Repo</a></li>
         </ul>
-
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-          </ul>
-        {% endif %}
-        <a href="{{ site.url }}/blog_posts.html">Blog posts</a>
-        <p class="header">Other pages will be here</p>
-        <a class="buttons github" href="https://github.com/AlexKnyshov/main_repo">My Main Repo</a>
       </header>
 
       <section>
