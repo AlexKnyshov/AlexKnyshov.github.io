@@ -1,0 +1,11 @@
+ ---
+ ---
+
+@import "{{ site.theme }}";
+a.Rcustom {
+	background: url(../images/R-small.png) no-repeat 1px;
+}
+a.Pycustom {
+        background: url(../images/Py-small.png) no-repeat 1px;
+}
+
