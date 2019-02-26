@@ -1,0 +1,170 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #00f;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #a31515;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #f00;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+/* BASH scheme : Agate by Taufik Nurrohman <https://github.com/tovic> */
+pre.bash .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: white;
+}
+
+pre.bash .hljs-name,
+pre.bash .hljs-strong {
+  font-weight: bold;
+}
+
+pre.bash .hljs-code,
+pre.bash .hljs-emphasis {
+  font-style: italic;
+}
+
+pre.bash .hljs-tag {
+  color: #62c8f3;
+}
+
+pre.bash .hljs-variable,
+pre.bash .hljs-template-variable,
+pre.bash .hljs-selector-id,
+pre.bash .hljs-selector-class {
+  color: #ade5fc;
+}
+
+pre.bash .hljs-string,
+pre.bash .hljs-bullet {
+  color: #a2fca2;
+}
+
+pre.bash .hljs-type,
+pre.bash .hljs-title,
+pre.bash .hljs-section,
+pre.bash .hljs-attribute,
+pre.bash .hljs-quote,
+pre.bash .hljs-built_in,
+pre.bash .hljs-builtin-name {
+  color: #ffa;
+}
+
+pre.bash .hljs-number,
+pre.bash .hljs-symbol,
+pre.bash .hljs-bullet {
+  color: #d36363;
+}
+
+pre.bash .hljs-keyword,
+pre.bash .hljs-selector-tag,
+pre.bash .hljs-literal {
+  color: #fcc28c;
+}
+
+pre.bash .hljs-comment,
+pre.bash .hljs-deletion,
+pre.bash .hljs-code {
+  color: #888;
+}
+
+pre.bash .hljs-regexp,
+pre.bash .hljs-link {
+  color: #c6b4f0;
+}
+
+pre.bash .hljs-meta {
+  color: #fc9b9b;
+}
+
+pre.bash .hljs-deletion {
+  background-color: #fc9b9b;
+  color: #333;
+}
+
+pre.bash .hljs-addition {
+  background-color: #a2fca2;
+  color: #333;
+}
+
+pre.bash .hljs a {
+  color: inherit;
+}
+
+pre.bash .hljs a:focus,
+pre.bash .hljs a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+
+/* nohighlight */
+
+pre.nohighlight {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #9bffe1;
+}
+
