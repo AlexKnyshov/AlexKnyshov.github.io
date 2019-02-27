@@ -11,7 +11,7 @@ a.Pycustom {
 
 /* Wrapper */
 .wrapper {
-  width:1200px;
+  width:auto;
 }
 
 /* Header */
@@ -37,9 +37,10 @@ header {
 /* Section - for main page content */
 
 section {
-  width:650px;
-  float:right;
-  padding-bottom:50px;
+ position: fixed;
+ width:auto;
+ padding-bottom:50px;
+ padding-left: 300px;
 }
 
 
