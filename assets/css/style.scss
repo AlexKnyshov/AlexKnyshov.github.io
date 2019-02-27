@@ -553,7 +553,7 @@ footer {
   padding-left: 50px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1260px) {
 
   div.wrapper {
     width:auto;
@@ -585,14 +585,19 @@ footer {
     display:inline;
   }
 
-  header ul {
-    position:absolute;
-    right:130px;
-    top:84px;
+ header ul {
+  position:absolute;
+  left:300px;
+  right: 80px;
+  top:84px
+ }
+  header li{
+    display: inline-block;
+    margin-bottom: 5px;
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 900px) {
   body {
     word-wrap:break-word;
   }
@@ -613,6 +618,9 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+  header li{
+    display: block;
   }
 }
 
