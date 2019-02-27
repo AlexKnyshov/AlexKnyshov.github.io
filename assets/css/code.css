@@ -202,9 +202,15 @@ pre.nohighlight {
 /* override dinky scheme */
 
 pre.r,
-pre.python,
+pre.python
+{
+  display: block;
+  padding: 0.5em;
+  background: #f8f8f8;
+}
 pre.bash {
   display: block;
   padding: 0.5em;
+  background: #333;
 }
 
