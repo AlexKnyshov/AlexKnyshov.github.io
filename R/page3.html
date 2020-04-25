@@ -1,9 +1,10 @@
 ---
 layout: default2
+title: Tutorial on Changing Root Position on Tree Branch in R
 ---
 {% include highlight.html %}
 <div id="r-tutorial-3-changing-root-position-on-a-tree-branch" class="section level2">
-<h2>R tutorial 3: Changing root position on a tree branch</h2>
+<h2>R tutorial 3: Changing the root position on a tree branch</h2>
 <p>When rerooting a phylogenetic tree in APE, instead of midpoint rooting, root is placed closer to one of the child nodes than another. This behavior differs from vizualization in figtree and ggtree::reroot (although ggtree and phytools reroot functions seem to incorrectly handle node-based labels such as support values while rerooting). APE’s root function properly handles such labels, and the way to customize the exact root position on a branch, such that the base of the tree does not appear as a polytomy, is shown below.</p>
 <div id="tools-needed" class="section level3">
 <h3>Tools needed</h3>
