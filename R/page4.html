@@ -64,15 +64,17 @@ char42 #check out the codings</code></pre>
 <pre class="nohighlight"><code>## Warning: NAs introduced by coercion</code></pre>
 <pre class="r"><code>names(numeric_coding) &lt;- names(char42[match(tree1$tip.label,names(char42))])</code></pre>
 <p>Basically anything not transformable to numeric will become <code>NA</code>. This solution may not work if you have more that 10 states (A, B, C etc.), then a different solution is needed, perhaps states with “-” or “?” be replaced by <code>NA</code>. Now, if there are any <code>NA</code>, we work with the following code:</p>
-<pre class="r"><code># prune the tree from taxa with NA coding
+<pre class="r"><code># prune the taxa with NA coding from the tree
 pruned_tree &lt;- drop.tip(tree1,tree1$tip.label[is.na(numeric_coding)])
 # prune the taxa with NA from the vector with codings
 pruned_coding &lt;- numeric_coding[!is.na(numeric_coding)]
 # perform your fav ASR method, here I do ace() for simplicity. Outputs of other ASR functions may need to be adjusted before working with this code
 asr &lt;- ace(pruned_coding,pruned_tree,&quot;discrete&quot;,marginal=F)
-# now we create a matrix of ASR proportional likelihoods for the original tree. The matrix is filled by NA (hence rep(NA) there in the code), and we will then populate good nodes with non NA values.
+# now we create a matrix of ASR proportional likelihoods for the original tree.
+# The matrix is filled by NA (hence rep(NA) there in the code), and we will then populate good nodes with non NA values.
 props_original &lt;- matrix(rep(NA,tree1$Nnode*length(levels(as.factor(numeric_coding)))),ncol = length(levels(as.factor(numeric_coding))))
-# now in this loop we go over the ace() output (asr$lik.anc) and put it in corresponding rows of the props_original. Node correspondence between the original and the prunned tree is checked by getMRCA function (thus the pie will be as close to root as possible)
+# now in this loop we go over the ace() output (asr$lik.anc) and put it in corresponding rows of the props_original.
+# Node correspondence between the original and the prunned tree is checked by getMRCA function (thus the pie will be as close to root as possible)
 for (n in 1:length(asr$lik.anc[,1])){
   props_original[getMRCA(tree1, tips(pruned_tree, n+length(pruned_tree$tip.label))) - length(tree1$tip.label),] &lt;- asr$lik.anc[n,]
 }</code></pre>
@@ -118,7 +120,8 @@ library(ggtree)</code></pre>
 df1 &lt;- as.data.frame(cbind(taxa=rownames(data_df), state=as.numeric(as.character(data_df$V42))), stringsAsFactors = F)</code></pre>
 <pre class="nohighlight"><code>## Warning in cbind(taxa = rownames(data_df), state =
 ## as.numeric(as.character(data_df$V42))): NAs introduced by coercion</code></pre>
-<pre class="r"><code>#create plot with tree, tip labels, and tip states #IMPORTANT: since the codings in the tip dataframe are NA, scale_fill_manual is parametrized with the color for NA. This reflects it in the legend automatically
+<pre class="r"><code>#create plot with tree, tip labels, and tip states
+#IMPORTANT: since the codings in the tip dataframe are NA, scale_fill_manual is parametrized with the color for NA. This reflects it in the legend automatically
 p &lt;- ggtree(tree1, ladderize=F) %&lt;+%  df1 + geom_tiplab(size=2) + geom_tippoint(aes(fill=state),shape=21) +
   scale_fill_manual(values = c(&quot;red&quot;,&quot;blue&quot;), na.value=&quot;gray&quot;)
 #reformat data for pie charts #IMPORTANT: remember to use props_original instead of asr$lik.anc here
