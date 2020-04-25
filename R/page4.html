@@ -74,7 +74,7 @@ asr &lt;- ace(pruned_coding,pruned_tree,&quot;discrete&quot;,marginal=F)
 # The matrix is filled by NA (hence rep(NA) there in the code), and we will then populate good nodes with non NA values.
 props_original &lt;- matrix(rep(NA,tree1$Nnode*length(levels(as.factor(numeric_coding)))),ncol = length(levels(as.factor(numeric_coding))))
 # now in this loop we go over the ace() output (asr$lik.anc) and put it in corresponding rows of the props_original.
-# Node correspondence between the original and the prunned tree is checked by getMRCA function (thus the pie will be as close to root as possible)
+# Node correspondence between the original and the prunned tree is checked by getMRCA function.
 for (n in 1:length(asr$lik.anc[,1])){
   props_original[getMRCA(tree1, tips(pruned_tree, n+length(pruned_tree$tip.label))) - length(tree1$tip.label),] &lt;- asr$lik.anc[n,]
 }</code></pre>
