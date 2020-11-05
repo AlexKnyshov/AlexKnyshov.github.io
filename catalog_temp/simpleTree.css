@@ -32,7 +32,7 @@ div.simpleTree-mainContainer.countHidden span.simpleTree-childCountBadge {
 
 .simpleTree-nodeContainer {
     padding: .1rem 0;
-    line-height: 1.15rem;
+    line-height: 1.0rem;
 }
 
 .simpleTree-indent {
@@ -59,7 +59,7 @@ div.simpleTree-mainContainer.countHidden span.simpleTree-childCountBadge {
 
 .simpleTree-label {
     display: inline-block;
-    padding: .2rem .25rem;
+    padding: .1rem .1rem;
     cursor: pointer;
     margin-left: .25rem;
     border: 1px solid transparent;
