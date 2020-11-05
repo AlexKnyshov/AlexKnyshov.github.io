@@ -1,0 +1,51 @@
+---
+layout: default2
+title: Tutorial on Reverse Complementing Sequence in Python
+---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<link href="simpleTree.css" rel="stylesheet">
+<style>
+ #mytree {
+ 	float:left;
+ }
+ #info {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  float:left;
+}
+</style>
+<script src="simpleTree.js"></script>
+<script src="catalog.js"></script>
+<p>search</p>
+<input type="search" id="example">
+<p></p>
+<div id="mytree"></div>
+<div id="info"></div>
+<script type="text/javascript">
+	var options = {
+	    searchBox: $('#example'),
+	    searchMinInputLength: 3
+	};
+
+	// $('#mytree').simpleTree(options, jdata);
+	$('#mytree').simpleTree(options, jdata)
+	.on('simpleTree:change', function(selectedNode){
+	  if (typeof $('#mytree').data('simpleTree').getSelectedNode() !== 'undefined')
+	  	{
+	  		// var dataval = $('#mytree').data('simpleTree').getSelectedNode().value;
+	  		// $('#info').html(dataval);
+	  		var dataval = $('#mytree').data('simpleTree').getSelectedNode().records;
+	  		console.log(dataval);
+	  		var htmlstring = "";
+	  		  $.each( dataval, function( key, val ) {
+				htmlstring += "<p>" + val + "</p>";
+				  });
+				  $('#info').html(htmlstring);
+	  	}
+	  else{
+	  	$('#info').html("");
+	  }
+	})
+</script>
