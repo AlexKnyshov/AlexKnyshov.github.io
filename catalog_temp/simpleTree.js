@@ -243,6 +243,49 @@ $.fn.simpleTree = function(options, data) {
         return this;
     }
 
+
+    this.hideNode2 = function(
+        node
+    ) {
+    // ------------------------------------------------------------------------
+        if(node.domContainer)
+            node.domContainer.addClass('AKdisabled');
+        // if(node.domChildren)
+        //     node.domChildren.addClass('AKdisabled');
+        return this;
+    }
+
+    this.showNode2 = function(
+        node
+    ) {
+    // ------------------------------------------------------------------------
+        if(node.domContainer)
+            node.domContainer.removeClass('AKdisabled');
+        // if(node.domChildren)
+        //     node.domChildren.removeClass('AKdisabled');
+        return this;
+    }
+
+    this.AKon = function(
+    ) {
+    // ------------------------------------------------------------------------
+        akvar = 1;
+        _treeData.forEach(node => _setSearchVisibility(node));
+    }
+
+    this.AKoff = function(
+    ) {
+    // ------------------------------------------------------------------------
+        akvar = 0;
+        _treeData.forEach(node => _setSearchVisibility(node));
+    }
+
+
+
+
+
+
+
     // ------------------------------------------------------------------------
     // toggles node visibility in the DOM
     this.toggleNodeVisibility = function(
@@ -267,6 +310,8 @@ $.fn.simpleTree = function(options, data) {
     var _options;
     var _treeData;
     var _nodeCount;
+
+    var akvar = 1;
 
     // Default options, can be overriden when initializing the jQuery object
     var _defaults = {
@@ -318,10 +363,13 @@ $.fn.simpleTree = function(options, data) {
         node
     ) {
     // ------------------------------------------------------------------------
-        if(node === _selectedNode)
+        if(node === _selectedNode) {
             _self.clearSelection(true);
-        else
+            $(".container").trigger('update', [{mapOptions: legenddata, replaceOptions: true}]);
+        }
+        else {
             _self.setSelectedNode(node);
+        }
     }
 
     // ------------------------------------------------------------------------
@@ -395,13 +443,14 @@ $.fn.simpleTree = function(options, data) {
         _renderNodeLabelText(node);
         div.append(node.domLabel);
         if(node.children.length > 0 && _options.childCountShow) {
-            div.append($('<span/>')
-                .addClass(_options.css.childCountBadge)
-                .text(node.children.length)
-            );
+            // this was number of direct children
+            // div.append($('<span/>')
+            //     .addClass(_options.css.childCountBadge)
+            //     .text(node.children.length)
+            // );
             div.append($('<span/>')
                 // .addClass(_options.css.childCountBadge)
-                .text(" : "+node.Nsp)
+                .text(" : "+node.Nsp+" spp.")
             );
         }
         div.data('node', node);
@@ -450,8 +499,9 @@ $.fn.simpleTree = function(options, data) {
     ) {
     // ------------------------------------------------------------------------
         if((node.searchInfo.matches || node.searchInfo.anyChildMatches)
-            && !_self.isNodeVisible(node)
+            // && !_self.isNodeVisible(node)
         ) {
+            _self.showNode2(node);
             _self.showNode(node);
         }
         if(node.searchInfo.anyChildMatches 
@@ -459,14 +509,40 @@ $.fn.simpleTree = function(options, data) {
         ) {
             _self.toggleSubtree(node);
         }
-        if(!node.searchInfo.matches 
-            && !node.searchInfo.anyChildMatches
-            // && _self.isNodeVisible(node)
-            && node.expanded
+        // if((node.searchInfo.matches || node.searchInfo.anyChildMatches)
+        //     && !_self.isNodeVisible(node)
+        // ) {
+        //     _self.showNode(node);
+        // }
+        // if(node.searchInfo.anyChildMatches 
+        //     && !node.expanded
+        // ) {
+        //     _self.toggleSubtree(node);
+        // }
+        //playe with these - add buttons to show only searched, searched plus higher classif, nothing, collapse expand etc
+        if((!node.searchInfo.matches && !node.searchInfo.anyChildMatches)
         ) {
+            if (node.expanded) {
+                _self.toggleSubtree(node);
+            }
             // _self.hideNode(node);
-            _self.toggleSubtree(node);
+            if (akvar === 1) {
+                _self.hideNode2(node);
+            } else {
+                _self.showNode2(node);
+            }
+            // if (node.children.length == 0) {
+            //     _self.hideNode2(node);
+            // }
         }
+        // if(!node.searchInfo.matches 
+        //     && !node.searchInfo.anyChildMatches
+        //     // && _self.isNodeVisible(node)
+        //     && node.expanded
+        // ) {
+        //     // _self.hideNode(node);
+        //     _self.toggleSubtree(node);
+        // }
         _renderNodeLabelText(node);
         node.children.forEach(child => _setSearchVisibility(child));
         // if(node.children.length > 0 && node.domToggle) {
@@ -475,6 +551,11 @@ $.fn.simpleTree = function(options, data) {
         //     else
         //         node.domToggle.removeClass('disabled');
         // }
+
+        // if(node.searchInfo.anyChildMatches)
+        //     node.removeClass('AKdisabled');
+        // else
+        //     node.addClass('AKdisabled');
     }
     
     // ------------------------------------------------------------------------
@@ -485,6 +566,7 @@ $.fn.simpleTree = function(options, data) {
         if(node.searchInfo) {
             if(!_self.isNodeVisible(node))
             _self.showNode(node);
+            _self.showNode2(node);
             if(node.children.length > 0) {
                 node.domToggle && node.domToggle.removeClass('disabled');
                 if((node.searchInfo.expandedBefore && !node.expanded)

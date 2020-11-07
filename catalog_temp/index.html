@@ -3,31 +3,153 @@ layout: default2
 title: catalog
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="raphael.js"> </script>
+<script src="jquery.mapael.js"></script>
+<script src="./world_countries.js"></script>
 <link href="simpleTree.css" rel="stylesheet">
 <style>
- #mytree {
- 	float:left;
- }
- #info {
-  width: 320px;
-  padding: 20px;
-  border: 5px solid gray;
-  margin: 0;
-  float:left;
+#grid-container {
+  display: grid;
+  grid-template-columns: 250px 450px auto;
+  grid-template-rows: 300px auto;
 }
+#mapblock {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    border: 1px solid black;
+}
+#searchblock {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid black;
+}
+#infoblock {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid black;
+}
+#treeblock {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    border: 1px solid black;
+}
+#mytree {
+ 	font-size:small;
+}
+#info {
+  padding: 20px;
+  margin: 0;
+  font-size:small;
+}
+.container {
+  width: 600px;
+}
+.mapael .map {
+            position: relative;
+        }
+.mapael .mapTooltip {
+            position: absolute;
+            background-color: #474c4b;
+            moz-opacity: 0.70;
+            opacity: 0.70;
+            filter: alpha(opacity=70);
+            border-radius: 10px;
+            padding: 10px;
+            z-index: 1000;
+            max-width: 200px;
+            display: none;
+            color: #fff;
+        }
 </style>
 <script src="simpleTree.js"></script>
 <script src="catalog.js"></script>
-<p>search</p>
-<input type="search" id="example">
-<p></p>
-<div id="mytree"></div>
-<div id="info"></div>
+<script src="mapdata.js"></script>
+
+<div id="grid-container">
+	<div id="mapblock">
+		<div class="container">
+		    <div class="map">Alternative content</div>
+		</div>
+	</div>
+	<div id="searchblock">
+		<p>search</p>
+		<input type="search" id="searchbox">
+		<button onclick="$('#mytree').data('simpleTree').expandAll()" >Expand All</button>
+		<button onclick="$('#mytree').data('simpleTree').collapseAll()" >Collapse All</button>
+		<button onclick="clearSelectionAK()" >Clear selection</button>
+		<p>only show searched:<br>
+		<input type="radio" name="AKopt" onclick="$('#mytree').data('simpleTree').AKon()" value=1 checked>Y
+		<input type="radio" name="AKopt" onclick="$('#mytree').data('simpleTree').AKoff()" value=0>N
+		</p>
+	</div>
+	<div id="infoblock">
+		<p>Info on selected taxa shows here:</p>
+		<div id="info"></div>
+	</div>
+	<div id="treeblock">
+		<div id="mytree"></div>
+	</div>
+</div>
+
+
+
 <script type="text/javascript">
+	clearSelectionAK = function(
+    ) {
+    	// document.getElementById('searchbox').value = '';
+    	// document.getElementById('searchbox').focus();
+		$('#mytree').data('simpleTree').clearSelection();
+		// console.log([{mapOptions: legenddata, replaceOptions: true}])
+		$(".container").trigger('update', [{mapOptions: legenddata, replaceOptions: true}]);
+		// $(".container").trigger('update', [{mapOptions: testdata['areas'], replaceOptions: false}]);
+    }
+
 	var options = {
-	    searchBox: $('#example'),
+	    searchBox: $('#searchbox'),
 	    searchMinInputLength: 3
 	};
+
+	var legenddata = { 
+		legend: {
+	        area: {
+	            display: true,
+	            title: "dipso population",
+	            slices: [
+	                {
+	                    max: 1,
+	                    attrs: {
+	                        fill: "#6ECBD4"
+	                    },
+	                    label: "Less than 1"
+	                },
+	                {
+	                    min: 1,
+	                    max: 3,
+	                    attrs: {
+	                        fill: "#3EC7D4"
+	                    },
+	                    label: "Between 1 and 3"
+	                },
+	                {
+	                    min: 3,
+	                    max: 5,
+	                    attrs: {
+	                        fill: "#028E9B"
+	                    },
+	                    label: "Between 3 and 5"
+	                },
+	                {
+	                    min: 5,
+	                    attrs: {
+	                        fill: "#01565E"
+	                    },
+	                    label: "More than 5"
+	                }
+	            ]
+	        }
+	    },
+	    areas : testdata['areas']
+    };
 
 	// $('#mytree').simpleTree(options, jdata);
 	$('#mytree').simpleTree(options, jdata)
@@ -37,7 +159,7 @@ title: catalog
 	  		// var dataval = $('#mytree').data('simpleTree').getSelectedNode().value;
 	  		// $('#info').html(dataval);
 	  		var dataval = $('#mytree').data('simpleTree').getSelectedNode().records;
-	  		console.log(dataval);
+	  		// console.log(dataval);
 	  		var htmlstring = "";
 	  		  $.each( dataval, function( key, val ) {
 				htmlstring += "<p>" + val + "</p>";
@@ -45,9 +167,62 @@ title: catalog
 				  $('#info').html(htmlstring);
 				  document.body.scrollTop = 0;
 				  document.documentElement.scrollTop = 0;
+
+			// $(".container").trigger('update', [$('#mytree').data('simpleTree').getSelectedNode().countries['areas']]);
+			// $(".container").trigger('update', [{mapOptions: {areas: {"GH": {attrs: {fill: "red"}}}}, replaceOptions: true}]);
+			$(".container").trigger('update', [{mapOptions: $('#mytree').data('simpleTree').getSelectedNode().countries, replaceOptions: true}]);
+			$(".container").trigger('update', [{mapOptions: $('#mytree').data('simpleTree').getSelectedNode().countries, replaceOptions: false}]);
+			// console.log($('#mytree').data('simpleTree').getSelectedNode().countries);
+			// console.log($('#mytree').data('simpleTree').getSelectedNode().countries['areas'])
 	  	}
 	  else{
 	  	$('#info').html("");
 	  }
 	})
+
+	$(".container").mapael({
+        map : {
+            name : "world_countries"
+        },
+        legend: {
+            area: {
+                display: true,
+                title: "dipso population",
+                slices: [
+                    {
+                        max: 1,
+                        attrs: {
+                            fill: "#01565E"
+                        },
+                        label: "Less than 1"
+                    },
+                    {
+                        min: 1,
+                        max: 3,
+                        attrs: {
+                            fill: "#028E9B"
+                        },
+                        label: "Between 1 and 3"
+                    },
+                    {
+                        min: 3,
+                        max: 5,
+                        attrs: {
+                            fill: "#3EC7D4"
+                        },
+                        label: "Between 3 and 5"
+                    },
+                    {
+                        min: 5,
+                        attrs: {
+                            fill: "#6ECBD4"
+                        },
+                        label: "More than 5"
+                    }
+                ]
+            }
+        },
+        areas : testdata['areas']
+        // plots : {"test1": { type:"circle", attrs : {stroke : "red", "fill-opacity": 0, "stroke-width": 3}, size:100, plotsOn: 'RU'}}
+    });
 </script>

@@ -57,6 +57,11 @@ div.simpleTree-mainContainer.countHidden span.simpleTree-childCountBadge {
     cursor: default !important;
 }
 
+.AKdisabled {
+    display: none;
+    /*color: red;*/
+}
+
 .simpleTree-label {
     display: inline-block;
     padding: .1rem .1rem;
