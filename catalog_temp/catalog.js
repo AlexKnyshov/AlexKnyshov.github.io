@@ -127,7 +127,9 @@ let jdata = [
 							4: '<i>Ceratocombus (Ceratocombus) brasiliensis</i> McAtee and Malloch 1925: 6 [status as species]',
 						},
 						countries: { areas : {
+							'BR': { attrs: {fill: 'red'}},
 							'GD': { attrs: {fill: 'red'}},
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -149,6 +151,7 @@ let jdata = [
 						countries: { areas : {
 							'DE': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
+							'RU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -186,10 +189,13 @@ let jdata = [
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
 							'FR': { attrs: {fill: 'red'}},
+							'DE': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
+							'NL': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
 							'ES': { attrs: {fill: 'red'}},
+							'CH': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -208,10 +214,12 @@ let jdata = [
 							9: '<i>Ceratocombus (Xylonannus) corticalis</i> Golub and Vinokurov 2009: 141 [distr., biol.]',
 						},
 						countries: { areas : {
+							'BY': { attrs: {fill: 'red'}},
 							'FI': { attrs: {fill: 'red'}},
 							'DE': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
+							'RU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -278,6 +286,7 @@ let jdata = [
 							2: '<i>Ceratocombus (Leptonannus) latipennis</i> McAtee and Malloch 1925: 9 [notes, n. comb]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -324,6 +333,7 @@ let jdata = [
 							1: '<i>Ceratocombus niger</i> Uhler 1904: 361 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -385,6 +395,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PR': { attrs: {fill: 'red'}},
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -421,6 +432,7 @@ let jdata = [
 						countries: { areas : {
 							'DE': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
+							'RU': { attrs: {fill: 'red'}},
 						}
 						},
 					},
@@ -449,6 +461,7 @@ let jdata = [
 						countries: { areas : {
 							'JP': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
+							'KR': { attrs: {fill: 'red'}},
 						}
 						},
 					},
@@ -465,11 +478,13 @@ let jdata = [
 					],
 					Nsp:5,
 					countries: { areas : {
-						'JP': { attrs: {fill: 'red'}},
-						'DE': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
 						'GP': { attrs: {fill: 'red'}},
+						'DE': { attrs: {fill: 'red'}},
+						'JP': { attrs: {fill: 'red'}},
+						'KR': { attrs: {fill: 'red'}},
 						'PL': { attrs: {fill: 'red'}},
+						'RU': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -499,9 +514,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -512,9 +524,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -527,10 +536,9 @@ let jdata = [
 							4: '<i>Ceratocombus (Ceratocombus) brasiliensis</i> McAtee and Malloch 1925: 6 [status as species]',
 						},
 						countries: { areas : {
+							'BR': { attrs: {fill: 'red'}},
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -566,24 +574,14 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
 							'FR': { attrs: {fill: 'red'}},
-							'FR': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
+							'DE': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
-							'PL': { attrs: {fill: 'red'}},
+							'NL': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
 							'ES': { attrs: {fill: 'red'}},
-							'ES': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
-							'FR': { plotsOn: 'FR', type: 'circle', size: 50},
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
-							'PL': { plotsOn: 'PL', type: 'circle', size: 50},
-							'ES': { plotsOn: 'ES', type: 'circle', size: 50},
+							'CH': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -593,7 +591,7 @@ let jdata = [
 							1: '<i>Ceratocombus (Ceratocombus) hesperus</i> McAtee and Malloch 1925: 6 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -603,7 +601,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Ceratocombus) hurdi</i> Wygodzinsky 1959: 853 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -621,9 +618,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PR': { attrs: {fill: 'red'}},
-							'PR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PR': { plotsOn: 'PR', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -634,9 +629,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MG': { attrs: {fill: 'red'}},
-							'MG': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MG': { plotsOn: 'MG', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -647,22 +639,24 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PR': { attrs: {fill: 'red'}},
-							'PR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PR': { plotsOn: 'PR', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:9,
 					countries: { areas : {
-						'CR': { attrs: {fill: 'red'}},
-						'ES': { attrs: {fill: 'red'}},
-						'GD': { attrs: {fill: 'red'}},
-						'MG': { attrs: {fill: 'red'}},
-						'FR': { attrs: {fill: 'red'}},
-						'PR': { attrs: {fill: 'red'}},
-						'GT': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
+						'PR': { attrs: {fill: 'red'}},
+						'MG': { attrs: {fill: 'red'}},
+						'BR': { attrs: {fill: 'red'}},
+						'GD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'NL': { attrs: {fill: 'red'}},
+						'ES': { attrs: {fill: 'red'}},
+						'DE': { attrs: {fill: 'red'}},
+						'FR': { attrs: {fill: 'red'}},
+						'CR': { attrs: {fill: 'red'}},
+						'CH': { attrs: {fill: 'red'}},
+						'GT': { attrs: {fill: 'red'}},
 						'PL': { attrs: {fill: 'red'}},
 						'HU': { attrs: {fill: 'red'}},
 					},
@@ -689,9 +683,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GH': { attrs: {fill: 'red'}},
-							'GH': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GH': { plotsOn: 'GH', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -702,7 +693,7 @@ let jdata = [
 							2: '<i>Ceratocombus (Leptonannus) latipennis</i> McAtee and Malloch 1925: 9 [notes, n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -714,20 +705,16 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:3,
 					countries: { areas : {
-						'GD': { attrs: {fill: 'red'}},
-						'GT': { attrs: {fill: 'red'}},
 						'GH': { attrs: {fill: 'red'}},
+						'GD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'GT': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -747,9 +734,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PH': { attrs: {fill: 'red'}},
-							'PH': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PH': { plotsOn: 'PH', type: 'circle', size: 50},
 						}},
 					},
 					],
@@ -797,9 +781,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'AU': { attrs: {fill: 'red'}},
-							'AU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'AU': { plotsOn: 'AU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -809,7 +790,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) boliviensis</i> Reuter 1891: 9 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -829,12 +809,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'DE': { attrs: {fill: 'red'}},
-							'DE': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
-							'PL': { attrs: {fill: 'red'}},
-						}, plots : {
-							'DE': { plotsOn: 'DE', type: 'circle', size: 50},
-							'PL': { plotsOn: 'PL', type: 'circle', size: 50},
+							'RU': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -852,19 +828,12 @@ let jdata = [
 							9: '<i>Ceratocombus (Xylonannus) corticalis</i> Golub and Vinokurov 2009: 141 [distr., biol.]',
 						},
 						countries: { areas : {
-							'FI': { attrs: {fill: 'red'}},
+							'BY': { attrs: {fill: 'red'}},
 							'FI': { attrs: {fill: 'red'}},
 							'DE': { attrs: {fill: 'red'}},
-							'DE': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
-							'PL': { attrs: {fill: 'red'}},
-						}, plots : {
-							'FI': { plotsOn: 'FI', type: 'circle', size: 50},
-							'DE': { plotsOn: 'DE', type: 'circle', size: 50},
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
-							'PL': { plotsOn: 'PL', type: 'circle', size: 50},
+							'RU': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -876,9 +845,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'AR': { attrs: {fill: 'red'}},
-							'AR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'AR': { plotsOn: 'AR', type: 'circle', size: 50},
+							'BR': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -891,12 +858,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'SD': { attrs: {fill: 'red'}},
-							'SD': { attrs: {fill: 'red'}},
 							'YE': { attrs: {fill: 'red'}},
-							'YE': { attrs: {fill: 'red'}},
-						}, plots : {
-							'SD': { plotsOn: 'SD', type: 'circle', size: 50},
-							'YE': { plotsOn: 'YE', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -906,7 +868,7 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) hawaiiensis</i> Usinger 1946: 633 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -919,9 +881,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'JP': { attrs: {fill: 'red'}},
-							'JP': { attrs: {fill: 'red'}},
-						}, plots : {
-							'JP': { plotsOn: 'JP', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -931,7 +890,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) kunsti</i> Štys 1958: 372 [description of junior synonym]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -942,9 +900,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -955,9 +910,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MG': { attrs: {fill: 'red'}},
-							'MG': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MG': { plotsOn: 'MG', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -968,9 +920,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'SD': { attrs: {fill: 'red'}},
-							'SD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'SD': { plotsOn: 'SD', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -984,12 +933,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'JP': { attrs: {fill: 'red'}},
-							'JP': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
-						}, plots : {
-							'JP': { plotsOn: 'JP', type: 'circle', size: 50},
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
+							'KR': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -999,7 +944,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) stysi</i> Roca-Cusachs et al 2019: 559 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -1009,7 +953,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) taivanus</i> Poppius 1914: 76 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -1019,7 +962,6 @@ let jdata = [
 							1: '<i>Ceratocombus (Xylonannus) toda</i> Hutchinson 1944: 774 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -1037,44 +979,52 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PR': { attrs: {fill: 'red'}},
-							'PR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PR': { plotsOn: 'PR', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:17,
 					countries: { areas : {
-						'JP': { attrs: {fill: 'red'}},
-						'AU': { attrs: {fill: 'red'}},
-						'AR': { attrs: {fill: 'red'}},
-						'YE': { attrs: {fill: 'red'}},
-						'GD': { attrs: {fill: 'red'}},
-						'MG': { attrs: {fill: 'red'}},
-						'PR': { attrs: {fill: 'red'}},
-						'DE': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
+						'PR': { attrs: {fill: 'red'}},
+						'BY': { attrs: {fill: 'red'}},
+						'MG': { attrs: {fill: 'red'}},
+						'AR': { attrs: {fill: 'red'}},
+						'BR': { attrs: {fill: 'red'}},
+						'GD': { attrs: {fill: 'red'}},
 						'SD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'DE': { attrs: {fill: 'red'}},
 						'FI': { attrs: {fill: 'red'}},
+						'YE': { attrs: {fill: 'red'}},
+						'AU': { attrs: {fill: 'red'}},
+						'JP': { attrs: {fill: 'red'}},
+						'KR': { attrs: {fill: 'red'}},
 						'PL': { attrs: {fill: 'red'}},
+						'RU': { attrs: {fill: 'red'}},
 					},
 					},
 				},
 				],
 				Nsp:57,
 				countries: { areas : {
-					'JP': { attrs: {fill: 'red'}},
-					'AU': { attrs: {fill: 'red'}},
-					'AR': { attrs: {fill: 'red'}},
-					'YE': { attrs: {fill: 'red'}},
-					'GD': { attrs: {fill: 'red'}},
-					'MG': { attrs: {fill: 'red'}},
-					'PR': { attrs: {fill: 'red'}},
-					'DE': { attrs: {fill: 'red'}},
 					'MN': { attrs: {fill: 'red'}},
+					'PR': { attrs: {fill: 'red'}},
+					'BY': { attrs: {fill: 'red'}},
+					'MG': { attrs: {fill: 'red'}},
+					'AR': { attrs: {fill: 'red'}},
+					'BR': { attrs: {fill: 'red'}},
+					'GD': { attrs: {fill: 'red'}},
 					'SD': { attrs: {fill: 'red'}},
+					'US': { attrs: {fill: 'red'}},
+					'DE': { attrs: {fill: 'red'}},
 					'FI': { attrs: {fill: 'red'}},
+					'YE': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
+					'JP': { attrs: {fill: 'red'}},
+					'KR': { attrs: {fill: 'red'}},
 					'PL': { attrs: {fill: 'red'}},
+					'RU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -1171,6 +1121,7 @@ let jdata = [
 							2: '<i>Ceratocombus latipennis</i> Henry 1988: 61–63 [n. comb]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1192,6 +1143,7 @@ let jdata = [
 							1: '<i>Leptonannus miocenicus</i> Azar et al. 2010: 100 [n. sp.]',
 						},
 						countries: { areas : {
+							'MX': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1216,49 +1168,59 @@ let jdata = [
 							2: '<i>Ceratocombus latipennis</i> Henry 1988: 61–63 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:1,
 					countries: { areas : {
+						'US': { attrs: {fill: 'red'}},
 					},
 					},
 				},
 				],
 				Nsp:5,
 				countries: { areas : {
+					'US': { attrs: {fill: 'red'}},
 				},
 				},
 			},
 		],
 		Nsp:64,
 		countries: { areas : {
-			'MG': { attrs: {fill: 'red'}},
-			'DE': { attrs: {fill: 'red'}},
-			'GT': { attrs: {fill: 'red'}},
-			'GH': { attrs: {fill: 'red'}},
-			'HU': { attrs: {fill: 'red'}},
+			'MN': { attrs: {fill: 'red'}},
+			'AR': { attrs: {fill: 'red'}},
+			'GP': { attrs: {fill: 'red'}},
+			'US': { attrs: {fill: 'red'}},
+			'FI': { attrs: {fill: 'red'}},
+			'YE': { attrs: {fill: 'red'}},
 			'JP': { attrs: {fill: 'red'}},
+			'CH': { attrs: {fill: 'red'}},
+			'GT': { attrs: {fill: 'red'}},
+			'MG': { attrs: {fill: 'red'}},
+			'GD': { attrs: {fill: 'red'}},
+			'ES': { attrs: {fill: 'red'}},
 			'FR': { attrs: {fill: 'red'}},
 			'PH': { attrs: {fill: 'red'}},
-			'MN': { attrs: {fill: 'red'}},
+			'KR': { attrs: {fill: 'red'}},
 			'PL': { attrs: {fill: 'red'}},
-			'NZ': { attrs: {fill: 'red'}},
+			'HU': { attrs: {fill: 'red'}},
 			'AO': { attrs: {fill: 'red'}},
-			'CN': { attrs: {fill: 'red'}},
-			'ES': { attrs: {fill: 'red'}},
 			'SC': { attrs: {fill: 'red'}},
-			'GD': { attrs: {fill: 'red'}},
-			'YE': { attrs: {fill: 'red'}},
-			'GP': { attrs: {fill: 'red'}},
+			'NL': { attrs: {fill: 'red'}},
+			'MX': { attrs: {fill: 'red'}},
+			'AU': { attrs: {fill: 'red'}},
+			'CN': { attrs: {fill: 'red'}},
+			'NZ': { attrs: {fill: 'red'}},
+			'PR': { attrs: {fill: 'red'}},
+			'GH': { attrs: {fill: 'red'}},
+			'BY': { attrs: {fill: 'red'}},
+			'BR': { attrs: {fill: 'red'}},
+			'SD': { attrs: {fill: 'red'}},
+			'DE': { attrs: {fill: 'red'}},
 			'CR': { attrs: {fill: 'red'}},
 			'PA': { attrs: {fill: 'red'}},
-			'AU': { attrs: {fill: 'red'}},
-			'AR': { attrs: {fill: 'red'}},
-			'PR': { attrs: {fill: 'red'}},
-			'SD': { attrs: {fill: 'red'}},
-			'FI': { attrs: {fill: 'red'}},
+			'RU': { attrs: {fill: 'red'}},
 		},
 		},
 	},
@@ -1480,32 +1442,40 @@ let jdata = [
 	],
 	Nsp:78,
 	countries: { areas : {
-		'TG': { attrs: {fill: 'red'}},
-		'MG': { attrs: {fill: 'red'}},
-		'DE': { attrs: {fill: 'red'}},
-		'GT': { attrs: {fill: 'red'}},
-		'GH': { attrs: {fill: 'red'}},
-		'HU': { attrs: {fill: 'red'}},
+		'MN': { attrs: {fill: 'red'}},
+		'AR': { attrs: {fill: 'red'}},
+		'GP': { attrs: {fill: 'red'}},
+		'US': { attrs: {fill: 'red'}},
+		'FI': { attrs: {fill: 'red'}},
+		'YE': { attrs: {fill: 'red'}},
 		'JP': { attrs: {fill: 'red'}},
+		'GT': { attrs: {fill: 'red'}},
+		'MG': { attrs: {fill: 'red'}},
+		'GD': { attrs: {fill: 'red'}},
+		'ES': { attrs: {fill: 'red'}},
 		'FR': { attrs: {fill: 'red'}},
 		'PH': { attrs: {fill: 'red'}},
-		'MN': { attrs: {fill: 'red'}},
+		'KR': { attrs: {fill: 'red'}},
 		'PL': { attrs: {fill: 'red'}},
-		'NZ': { attrs: {fill: 'red'}},
-		'AO': { attrs: {fill: 'red'}},
-		'CN': { attrs: {fill: 'red'}},
-		'ES': { attrs: {fill: 'red'}},
-		'SC': { attrs: {fill: 'red'}},
-		'GD': { attrs: {fill: 'red'}},
-		'YE': { attrs: {fill: 'red'}},
-		'GP': { attrs: {fill: 'red'}},
-		'CR': { attrs: {fill: 'red'}},
+		'HU': { attrs: {fill: 'red'}},
 		'PA': { attrs: {fill: 'red'}},
+		'AO': { attrs: {fill: 'red'}},
+		'SC': { attrs: {fill: 'red'}},
+		'NL': { attrs: {fill: 'red'}},
+		'MX': { attrs: {fill: 'red'}},
 		'AU': { attrs: {fill: 'red'}},
-		'AR': { attrs: {fill: 'red'}},
+		'CN': { attrs: {fill: 'red'}},
+		'NZ': { attrs: {fill: 'red'}},
 		'PR': { attrs: {fill: 'red'}},
+		'GH': { attrs: {fill: 'red'}},
+		'TG': { attrs: {fill: 'red'}},
+		'BY': { attrs: {fill: 'red'}},
+		'BR': { attrs: {fill: 'red'}},
 		'SD': { attrs: {fill: 'red'}},
-		'FI': { attrs: {fill: 'red'}},
+		'DE': { attrs: {fill: 'red'}},
+		'CR': { attrs: {fill: 'red'}},
+		'CH': { attrs: {fill: 'red'}},
+		'RU': { attrs: {fill: 'red'}},
 	},
 	},
 },
@@ -1631,6 +1601,7 @@ let jdata = [
 							'AT': { attrs: {fill: 'red'}},
 							'BE': { attrs: {fill: 'red'}},
 							'FR': { attrs: {fill: 'red'}},
+							'DE': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
@@ -1721,6 +1692,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MN': { attrs: {fill: 'red'}},
+							'RU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1731,6 +1703,7 @@ let jdata = [
 							1: '<i>Cryptostemma haywardi</i> Wygodzinsky 1951: 52 [n. sp.]',
 						},
 						countries: { areas : {
+							'AR': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1741,6 +1714,7 @@ let jdata = [
 							1: '<i>Cryptostemma hickmani</i> Hill 1987: 135 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1780,6 +1754,7 @@ let jdata = [
 							2: '<i>Cryptostemma linguata</i> Naranjo et al. 2010: 901 [distr.]',
 						},
 						countries: { areas : {
+							'CU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1801,6 +1776,7 @@ let jdata = [
 							1: '<i>Cryptostemma monga</i> Hill 1987: 133 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1904,6 +1880,7 @@ let jdata = [
 							1: '<i>Cryptostemma sordida</i> China 1946: 153 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1935,6 +1912,7 @@ let jdata = [
 							1: '<i>Cryptostemma triacanthota</i> Hill 1987: 135 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1947,6 +1925,8 @@ let jdata = [
 							3: '<i>Cryptostemma uhleri</i> Wygodzinsky 1948: 290 [morph.]',
 						},
 						countries: { areas : {
+							'MX': { attrs: {fill: 'red'}},
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1957,6 +1937,7 @@ let jdata = [
 							1: '<i>Cryptostemma urarria</i> Hill 1987: 130 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -1967,6 +1948,7 @@ let jdata = [
 							1: '<i>Cryptostemma usingeri</i> Wygodzinsky 1955: 199 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2051,30 +2033,14 @@ let jdata = [
 						},
 						countries: { areas : {
 							'AT': { attrs: {fill: 'red'}},
-							'AT': { attrs: {fill: 'red'}},
-							'BE': { attrs: {fill: 'red'}},
 							'BE': { attrs: {fill: 'red'}},
 							'FR': { attrs: {fill: 'red'}},
-							'FR': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
+							'DE': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
-							'PL': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
 							'ES': { attrs: {fill: 'red'}},
-							'ES': { attrs: {fill: 'red'}},
 							'CH': { attrs: {fill: 'red'}},
-							'CH': { attrs: {fill: 'red'}},
-						}, plots : {
-							'AT': { plotsOn: 'AT', type: 'circle', size: 50},
-							'BE': { plotsOn: 'BE', type: 'circle', size: 50},
-							'FR': { plotsOn: 'FR', type: 'circle', size: 50},
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
-							'PL': { plotsOn: 'PL', type: 'circle', size: 50},
-							'ES': { plotsOn: 'ES', type: 'circle', size: 50},
-							'CH': { plotsOn: 'CH', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2089,9 +2055,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PL': { attrs: {fill: 'red'}},
-							'PL': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PL': { plotsOn: 'PL', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2102,7 +2065,6 @@ let jdata = [
 							2: '<i>Cryptostemma (Cryptostemma) digitum</i> Kerzhner 1995: 6–12 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -2117,9 +2079,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'HU': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2134,18 +2093,9 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BG': { attrs: {fill: 'red'}},
-							'BG': { attrs: {fill: 'red'}},
-							'FR': { attrs: {fill: 'red'}},
 							'FR': { attrs: {fill: 'red'}},
 							'IT': { attrs: {fill: 'red'}},
-							'IT': { attrs: {fill: 'red'}},
 							'TR': { attrs: {fill: 'red'}},
-							'TR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BG': { plotsOn: 'BG', type: 'circle', size: 50},
-							'FR': { plotsOn: 'FR', type: 'circle', size: 50},
-							'IT': { plotsOn: 'IT', type: 'circle', size: 50},
-							'TR': { plotsOn: 'TR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2157,9 +2107,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'DE': { attrs: {fill: 'red'}},
-							'DE': { attrs: {fill: 'red'}},
-						}, plots : {
-							'DE': { plotsOn: 'DE', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2170,22 +2117,21 @@ let jdata = [
 							2: '<i>Cryptostemma (Cryptostemma) wwygodzinskyi</i> Kerzhner 1995: 6–12 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					],
 					Nsp:7,
 					countries: { areas : {
-						'ES': { attrs: {fill: 'red'}},
-						'TR': { attrs: {fill: 'red'}},
-						'BG': { attrs: {fill: 'red'}},
-						'BE': { attrs: {fill: 'red'}},
-						'CH': { attrs: {fill: 'red'}},
-						'FR': { attrs: {fill: 'red'}},
-						'IT': { attrs: {fill: 'red'}},
-						'AT': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
+						'BE': { attrs: {fill: 'red'}},
+						'IT': { attrs: {fill: 'red'}},
+						'CH': { attrs: {fill: 'red'}},
+						'ES': { attrs: {fill: 'red'}},
 						'DE': { attrs: {fill: 'red'}},
+						'FR': { attrs: {fill: 'red'}},
+						'AT': { attrs: {fill: 'red'}},
+						'BG': { attrs: {fill: 'red'}},
+						'TR': { attrs: {fill: 'red'}},
 						'PL': { attrs: {fill: 'red'}},
 						'HU': { attrs: {fill: 'red'}},
 					},
@@ -2211,7 +2157,6 @@ let jdata = [
 							1: '<i>Cryptostemma (Harpago) castaneovitreus</i> Kerzhner 1995: 6–12 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -2225,12 +2170,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
 							'TR': { attrs: {fill: 'red'}},
-							'TR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
-							'TR': { plotsOn: 'TR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2242,9 +2182,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MA': { attrs: {fill: 'red'}},
-							'MA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MA': { plotsOn: 'MA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2254,7 +2191,6 @@ let jdata = [
 							1: '<i>Cryptostemma (Harpago) maroccana</i> Kerzhner 1995: 6–12 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -2269,18 +2205,15 @@ let jdata = [
 						},
 						countries: { areas : {
 							'HU': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:5,
 					countries: { areas : {
-						'TR': { attrs: {fill: 'red'}},
-						'HU': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
+						'TR': { attrs: {fill: 'red'}},
 						'MA': { attrs: {fill: 'red'}},
+						'HU': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -2309,9 +2242,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
+							'RU': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -2326,15 +2257,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CN': { attrs: {fill: 'red'}},
-							'CN': { attrs: {fill: 'red'}},
-							'JP': { attrs: {fill: 'red'}},
 							'JP': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
-							'MN': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CN': { plotsOn: 'CN', type: 'circle', size: 50},
-							'JP': { plotsOn: 'JP', type: 'circle', size: 50},
-							'MN': { plotsOn: 'MN', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2344,7 +2268,6 @@ let jdata = [
 							1: '<i>Cryptostemma (Pachycoleus) pulsillimus</i> Kerzhner 1995: 6–12 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -2359,15 +2282,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'FR': { attrs: {fill: 'red'}},
-							'FR': { attrs: {fill: 'red'}},
-							'GR': { attrs: {fill: 'red'}},
 							'GR': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'FR': { plotsOn: 'FR', type: 'circle', size: 50},
-							'GR': { plotsOn: 'GR', type: 'circle', size: 50},
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2380,9 +2296,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'IQ': { attrs: {fill: 'red'}},
-							'IQ': { attrs: {fill: 'red'}},
-						}, plots : {
-							'IQ': { plotsOn: 'IQ', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -2402,44 +2315,39 @@ let jdata = [
 						},
 						countries: { areas : {
 							'DE': { attrs: {fill: 'red'}},
-							'DE': { attrs: {fill: 'red'}},
-							'HU': { attrs: {fill: 'red'}},
 							'HU': { attrs: {fill: 'red'}},
 							'NL': { attrs: {fill: 'red'}},
-							'NL': { attrs: {fill: 'red'}},
-						}, plots : {
-							'DE': { plotsOn: 'DE', type: 'circle', size: 50},
-							'HU': { plotsOn: 'HU', type: 'circle', size: 50},
-							'NL': { plotsOn: 'NL', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:6,
 					countries: { areas : {
-						'JP': { attrs: {fill: 'red'}},
-						'CN': { attrs: {fill: 'red'}},
-						'IQ': { attrs: {fill: 'red'}},
-						'FR': { attrs: {fill: 'red'}},
-						'DE': { attrs: {fill: 'red'}},
 						'MN': { attrs: {fill: 'red'}},
-						'HU': { attrs: {fill: 'red'}},
 						'GR': { attrs: {fill: 'red'}},
+						'HU': { attrs: {fill: 'red'}},
 						'NL': { attrs: {fill: 'red'}},
+						'DE': { attrs: {fill: 'red'}},
+						'FR': { attrs: {fill: 'red'}},
+						'JP': { attrs: {fill: 'red'}},
+						'IQ': { attrs: {fill: 'red'}},
+						'CN': { attrs: {fill: 'red'}},
+						'RU': { attrs: {fill: 'red'}},
 					},
 					},
 				},
 				],
 				Nsp:49,
 				countries: { areas : {
-					'JP': { attrs: {fill: 'red'}},
-					'CN': { attrs: {fill: 'red'}},
-					'IQ': { attrs: {fill: 'red'}},
-					'FR': { attrs: {fill: 'red'}},
-					'DE': { attrs: {fill: 'red'}},
 					'MN': { attrs: {fill: 'red'}},
-					'HU': { attrs: {fill: 'red'}},
 					'GR': { attrs: {fill: 'red'}},
+					'HU': { attrs: {fill: 'red'}},
 					'NL': { attrs: {fill: 'red'}},
+					'DE': { attrs: {fill: 'red'}},
+					'FR': { attrs: {fill: 'red'}},
+					'JP': { attrs: {fill: 'red'}},
+					'IQ': { attrs: {fill: 'red'}},
+					'CN': { attrs: {fill: 'red'}},
+					'RU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -2532,10 +2440,10 @@ let jdata = [
 				Nsp:3,
 				countries: { areas : {
 					'DZ': { attrs: {fill: 'red'}},
-					'TR': { attrs: {fill: 'red'}},
-					'BG': { attrs: {fill: 'red'}},
-					'UA': { attrs: {fill: 'red'}},
 					'FR': { attrs: {fill: 'red'}},
+					'BG': { attrs: {fill: 'red'}},
+					'TR': { attrs: {fill: 'red'}},
+					'UA': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -2591,6 +2499,7 @@ let jdata = [
 							'FI': { attrs: {fill: 'red'}},
 							'MN': { attrs: {fill: 'red'}},
 							'PL': { attrs: {fill: 'red'}},
+							'RU': { attrs: {fill: 'red'}},
 							'ES': { attrs: {fill: 'red'}},
 							'CH': { attrs: {fill: 'red'}},
 						},
@@ -2634,14 +2543,15 @@ let jdata = [
 				],
 				Nsp:5,
 				countries: { areas : {
-					'JP': { attrs: {fill: 'red'}},
-					'ES': { attrs: {fill: 'red'}},
 					'DZ': { attrs: {fill: 'red'}},
-					'CH': { attrs: {fill: 'red'}},
-					'DE': { attrs: {fill: 'red'}},
 					'MN': { attrs: {fill: 'red'}},
+					'ES': { attrs: {fill: 'red'}},
+					'DE': { attrs: {fill: 'red'}},
 					'FI': { attrs: {fill: 'red'}},
+					'JP': { attrs: {fill: 'red'}},
+					'CH': { attrs: {fill: 'red'}},
 					'PL': { attrs: {fill: 'red'}},
+					'RU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -2705,32 +2615,39 @@ let jdata = [
 	],
 	Nsp:66,
 	countries: { areas : {
-		'MG': { attrs: {fill: 'red'}},
-		'DE': { attrs: {fill: 'red'}},
-		'GR': { attrs: {fill: 'red'}},
-		'HU': { attrs: {fill: 'red'}},
-		'JP': { attrs: {fill: 'red'}},
-		'MA': { attrs: {fill: 'red'}},
-		'CH': { attrs: {fill: 'red'}},
-		'FR': { attrs: {fill: 'red'}},
 		'MN': { attrs: {fill: 'red'}},
-		'PL': { attrs: {fill: 'red'}},
-		'CN': { attrs: {fill: 'red'}},
-		'ES': { attrs: {fill: 'red'}},
-		'DZ': { attrs: {fill: 'red'}},
-		'UA': { attrs: {fill: 'red'}},
-		'GD': { attrs: {fill: 'red'}},
-		'PA': { attrs: {fill: 'red'}},
-		'IQ': { attrs: {fill: 'red'}},
-		'TR': { attrs: {fill: 'red'}},
-		'BG': { attrs: {fill: 'red'}},
-		'BE': { attrs: {fill: 'red'}},
-		'PR': { attrs: {fill: 'red'}},
-		'IT': { attrs: {fill: 'red'}},
-		'AT': { attrs: {fill: 'red'}},
-		'SD': { attrs: {fill: 'red'}},
+		'CU': { attrs: {fill: 'red'}},
+		'AR': { attrs: {fill: 'red'}},
+		'US': { attrs: {fill: 'red'}},
 		'FI': { attrs: {fill: 'red'}},
+		'JP': { attrs: {fill: 'red'}},
+		'CH': { attrs: {fill: 'red'}},
+		'AT': { attrs: {fill: 'red'}},
+		'IQ': { attrs: {fill: 'red'}},
+		'UA': { attrs: {fill: 'red'}},
+		'BE': { attrs: {fill: 'red'}},
+		'IT': { attrs: {fill: 'red'}},
+		'MG': { attrs: {fill: 'red'}},
+		'GD': { attrs: {fill: 'red'}},
+		'ES': { attrs: {fill: 'red'}},
+		'FR': { attrs: {fill: 'red'}},
+		'BG': { attrs: {fill: 'red'}},
+		'PL': { attrs: {fill: 'red'}},
+		'HU': { attrs: {fill: 'red'}},
+		'TT': { attrs: {fill: 'red'}},
 		'NL': { attrs: {fill: 'red'}},
+		'MX': { attrs: {fill: 'red'}},
+		'AU': { attrs: {fill: 'red'}},
+		'CN': { attrs: {fill: 'red'}},
+		'PR': { attrs: {fill: 'red'}},
+		'DZ': { attrs: {fill: 'red'}},
+		'GR': { attrs: {fill: 'red'}},
+		'SD': { attrs: {fill: 'red'}},
+		'DE': { attrs: {fill: 'red'}},
+		'MA': { attrs: {fill: 'red'}},
+		'PA': { attrs: {fill: 'red'}},
+		'TR': { attrs: {fill: 'red'}},
+		'RU': { attrs: {fill: 'red'}},
 	},
 	},
 },
@@ -2810,18 +2727,18 @@ let jdata = [
 				],
 				Nsp:5,
 				countries: { areas : {
+					'UG': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
 					'TH': { attrs: {fill: 'red'}},
-					'UG': { attrs: {fill: 'red'}},
 				},
 				},
 			},
 	],
 	Nsp:5,
 	countries: { areas : {
+		'UG': { attrs: {fill: 'red'}},
 		'AO': { attrs: {fill: 'red'}},
 		'TH': { attrs: {fill: 'red'}},
-		'UG': { attrs: {fill: 'red'}},
 	},
 	},
 },
@@ -2890,6 +2807,7 @@ let jdata = [
 							1: '<i>Cryptomannus furvus</i> Hill 1984: 20 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2900,12 +2818,14 @@ let jdata = [
 							1: '<i>Cryptomannus illustris</i> Hill 1984: 22 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:2,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -2924,6 +2844,7 @@ let jdata = [
 							1: '<i>Duonota bicamaca</i> Hill 1984: 36 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2934,6 +2855,7 @@ let jdata = [
 							1: '<i>Duonota bimaculata</i> Hill 1984: 35 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2944,6 +2866,7 @@ let jdata = [
 							1: '<i>Duonota compressa</i> Hill 1984: 28 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2954,6 +2877,7 @@ let jdata = [
 							1: '<i>Duonota concava</i> Hill 1984: 25 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2964,6 +2888,7 @@ let jdata = [
 							1: '<i>Duonota deoricauda</i> Hill 1984: 30 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2974,6 +2899,7 @@ let jdata = [
 							1: '<i>Duonota decoricaudula</i> Hill 1985: 269 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2984,6 +2910,7 @@ let jdata = [
 							1: '<i>Duonota fusca</i> Hill 1985: 268 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -2994,6 +2921,7 @@ let jdata = [
 							1: '<i>Duonota lumata</i> Hill 1985: 266 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3004,6 +2932,7 @@ let jdata = [
 							1: '<i>Duonota multidentata</i> Hill 1984: 33 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3014,6 +2943,7 @@ let jdata = [
 							1: '<i>Duonota spathulata</i> Hill 1985: 264 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3024,6 +2954,7 @@ let jdata = [
 							1: '<i>Duonota spinosigenua</i> Hill 1984: 30 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3034,12 +2965,14 @@ let jdata = [
 							1: '<i>Duonota truncata</i> Hill 1984: 28 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:12,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3062,6 +2995,7 @@ let jdata = [
 							1: '<i>Glyptocombus halbertae</i> Weirauch et al 2018: 57 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3087,6 +3021,7 @@ let jdata = [
 							5: '<i>Glyptocombus saltator</i> Weirauch et al 2018: 60 [descr.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3097,6 +3032,7 @@ let jdata = [
 							1: '<i>Glyptocombus suteri</i> Weirauch et al 2018: 63 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3104,6 +3040,7 @@ let jdata = [
 				Nsp:4,
 				countries: { areas : {
 					'MX': { attrs: {fill: 'red'}},
+					'US': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3206,6 +3143,7 @@ let jdata = [
 							1: '<i>Hypselosoma boops</i> McAtee and Malloch 1925: 32 [n. sp.]',
 						},
 						countries: { areas : {
+							'CN': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3284,6 +3222,7 @@ let jdata = [
 							4: '<i>Hypselosoma hickmani</i> Weirauch and Cassis 2009: 229-252 [wing morphology]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3430,6 +3369,7 @@ let jdata = [
 							1: '<i>Hypselosoma oncerochilotum</i> Hill 1987: 272 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3451,6 +3391,7 @@ let jdata = [
 							1: '<i>Hypselosoma pachypechotum</i> Hill 1987: 269 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3514,6 +3455,7 @@ let jdata = [
 							1: '<i>Hypselosoma schizobregmotum</i> Hill 1987: 272 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3524,6 +3466,7 @@ let jdata = [
 							1: '<i>Hypselosoma simile</i> Wygodzinsky 1960: 529 [n. sp.]',
 						},
 						countries: { areas : {
+							'PG': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3556,6 +3499,7 @@ let jdata = [
 							1: '<i>Hypselosoma trachypechotum</i> Hill 1987: 267 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3573,11 +3517,14 @@ let jdata = [
 				],
 				Nsp:40,
 				countries: { areas : {
-					'JP': { attrs: {fill: 'red'}},
 					'MG': { attrs: {fill: 'red'}},
-					'NC': { attrs: {fill: 'red'}},
-					'PH': { attrs: {fill: 'red'}},
 					'NZ': { attrs: {fill: 'red'}},
+					'PG': { attrs: {fill: 'red'}},
+					'NC': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
+					'JP': { attrs: {fill: 'red'}},
+					'PH': { attrs: {fill: 'red'}},
+					'CN': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3680,6 +3627,7 @@ let jdata = [
 							1: '<i>Lativena producta</i> Hill 1984: 18 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3690,12 +3638,14 @@ let jdata = [
 							1: '<i>Lativena productior</i> Hill 1984: 16 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:2,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3736,12 +3686,14 @@ let jdata = [
 							1: '<i>Macromannus webbicus</i> Hill 1984: 11 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:1,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3759,12 +3711,14 @@ let jdata = [
 							1: '<i>Odirete hopevalensis</i> Hill 1984: 13 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:1,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3852,7 +3806,6 @@ let jdata = [
 							1: '<i>Ommatides pristis</i> Hoey-Chamberlain and Weirauch 2019: 86 [n. sp.]',
 						},
 						countries: { areas : {
-							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3863,7 +3816,6 @@ let jdata = [
 							1: '<i>Ommatides tridentis</i> Hoey-Chamberlain and Weirauch 2019: 89 [n. sp.]',
 						},
 						countries: { areas : {
-							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3892,13 +3844,12 @@ let jdata = [
 				],
 				Nsp:10,
 				countries: { areas : {
-					'SR': { attrs: {fill: 'red'}},
 					'PE': { attrs: {fill: 'red'}},
-					'PA': { attrs: {fill: 'red'}},
-					'AR': { attrs: {fill: 'red'}},
-					'EC': { attrs: {fill: 'red'}},
 					'CO': { attrs: {fill: 'red'}},
-					'TT': { attrs: {fill: 'red'}},
+					'AR': { attrs: {fill: 'red'}},
+					'SR': { attrs: {fill: 'red'}},
+					'PA': { attrs: {fill: 'red'}},
+					'EC': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3917,6 +3868,7 @@ let jdata = [
 							1: '<i>Pateena curta</i> Hill 1985: 278 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3928,6 +3880,7 @@ let jdata = [
 							2: '<i>Pateena elimata</i> Hill 1985: 274 [descr.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3938,6 +3891,7 @@ let jdata = [
 							1: '<i>Pateena elimatula</i> Hill 1985: 275 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3949,12 +3903,14 @@ let jdata = [
 							2: '<i>Pateena polymitarior</i> Hill 1985: 277 [descr.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:4,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -3972,6 +3928,7 @@ let jdata = [
 							1: '<i>Rectilamina australis</i> Hill 1984: 43 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3982,6 +3939,7 @@ let jdata = [
 							1: '<i>Rectilamina borealis</i> Hill 1984: 39 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -3992,6 +3950,7 @@ let jdata = [
 							1: '<i>Rectilamina curvicauda</i> Hill 1984: 51 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4002,6 +3961,7 @@ let jdata = [
 							1: '<i>Rectilamina illacuna</i> Hill 1984: 50 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4012,6 +3972,7 @@ let jdata = [
 							1: '<i>Rectilamina oblonga</i> Hill 1984: 48 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4032,6 +3993,7 @@ let jdata = [
 							1: '<i>Rectilamina spinosisura </i> Hill 1984: 47 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4042,12 +4004,14 @@ let jdata = [
 							1: '<i>Rectilamina torquata</i> Hill 1984: 42 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:8,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -4088,32 +4052,37 @@ let jdata = [
 							1: '<i>Williamsocoris ornatus</i> Carpintero and Dellapé 2006: 654 [n. sp.]',
 						},
 						countries: { areas : {
+							'AR': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:1,
 				countries: { areas : {
+					'AR': { attrs: {fill: 'red'}},
 				},
 				},
 			},
 		],
 		Nsp:92,
 		countries: { areas : {
-			'JP': { attrs: {fill: 'red'}},
-			'MX': { attrs: {fill: 'red'}},
-			'PE': { attrs: {fill: 'red'}},
-			'PA': { attrs: {fill: 'red'}},
 			'SR': { attrs: {fill: 'red'}},
-			'AR': { attrs: {fill: 'red'}},
+			'CU': { attrs: {fill: 'red'}},
+			'PE': { attrs: {fill: 'red'}},
 			'MG': { attrs: {fill: 'red'}},
+			'BR': { attrs: {fill: 'red'}},
+			'CO': { attrs: {fill: 'red'}},
+			'AR': { attrs: {fill: 'red'}},
+			'US': { attrs: {fill: 'red'}},
+			'MX': { attrs: {fill: 'red'}},
+			'PG': { attrs: {fill: 'red'}},
 			'NC': { attrs: {fill: 'red'}},
+			'AU': { attrs: {fill: 'red'}},
+			'JP': { attrs: {fill: 'red'}},
+			'PA': { attrs: {fill: 'red'}},
+			'CN': { attrs: {fill: 'red'}},
 			'PH': { attrs: {fill: 'red'}},
 			'EC': { attrs: {fill: 'red'}},
-			'TT': { attrs: {fill: 'red'}},
-			'CO': { attrs: {fill: 'red'}},
-			'BR': { attrs: {fill: 'red'}},
-			'CU': { attrs: {fill: 'red'}},
 			'NZ': { attrs: {fill: 'red'}},
 		},
 		},
@@ -4211,12 +4180,14 @@ let jdata = [
 							1: '<i>Carinatala septentrionalis</i> Hill 2015: 92 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:2,
 				countries: { areas : {
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -4294,8 +4265,8 @@ let jdata = [
 				],
 				Nsp:2,
 				countries: { areas : {
-					'BR': { attrs: {fill: 'red'}},
 					'PA': { attrs: {fill: 'red'}},
+					'BR': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -4315,6 +4286,7 @@ let jdata = [
 							1: '<i>Chinannus advenus</i> Knyshov et al. 2016: 28 [n. sp.]',
 						},
 						countries: { areas : {
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4524,6 +4496,7 @@ let jdata = [
 							1: '<i>Chinannus parvioculatus</i> Knyshov et al. 2016: 63 [n. sp.]',
 						},
 						countries: { areas : {
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4612,20 +4585,23 @@ let jdata = [
 							3: '<i>Chinannus trinitatis</i> Knyshov et al. 2016: 74 [descr.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:28,
 				countries: { areas : {
-					'CR': { attrs: {fill: 'red'}},
-					'PE': { attrs: {fill: 'red'}},
-					'PA': { attrs: {fill: 'red'}},
-					'NI': { attrs: {fill: 'red'}},
 					'GF': { attrs: {fill: 'red'}},
-					'EC': { attrs: {fill: 'red'}},
+					'PE': { attrs: {fill: 'red'}},
+					'TT': { attrs: {fill: 'red'}},
 					'CO': { attrs: {fill: 'red'}},
 					'BR': { attrs: {fill: 'red'}},
+					'VE': { attrs: {fill: 'red'}},
+					'CR': { attrs: {fill: 'red'}},
+					'PA': { attrs: {fill: 'red'}},
+					'NI': { attrs: {fill: 'red'}},
+					'EC': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -4648,6 +4624,7 @@ let jdata = [
 							1: '<i>Corixidea beebei</i> Emsley 1969: 44 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4691,6 +4668,7 @@ let jdata = [
 							1: '<i>Corixidea julieae</i> Emsley 1969: 45 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4717,6 +4695,7 @@ let jdata = [
 							4: '<i>Corixidea major</i> Weirauch et al 2018: 64 [revised description]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -4737,16 +4716,19 @@ let jdata = [
 							1: '<i>Corixidea underwoodi</i> Emsley 1969: 45 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:9,
 				countries: { areas : {
-					'PA': { attrs: {fill: 'red'}},
-					'MX': { attrs: {fill: 'red'}},
-					'BR': { attrs: {fill: 'red'}},
 					'CU': { attrs: {fill: 'red'}},
+					'TT': { attrs: {fill: 'red'}},
+					'BR': { attrs: {fill: 'red'}},
+					'US': { attrs: {fill: 'red'}},
+					'MX': { attrs: {fill: 'red'}},
+					'PA': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -4900,9 +4882,9 @@ let jdata = [
 				],
 				Nsp:5,
 				countries: { areas : {
+					'GH': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
 					'SD': { attrs: {fill: 'red'}},
-					'GH': { attrs: {fill: 'red'}},
 					'CN': { attrs: {fill: 'red'}},
 				},
 				},
@@ -5010,6 +4992,7 @@ let jdata = [
 							1: '<i>Hoplonannus craneae</i> Emsley 1969: 48 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5020,6 +5003,7 @@ let jdata = [
 							1: '<i>Hoplonannus paenebrunneus</i> Emsley 1969: 47 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5037,11 +5021,12 @@ let jdata = [
 				],
 				Nsp:6,
 				countries: { areas : {
-					'AR': { attrs: {fill: 'red'}},
-					'PY': { attrs: {fill: 'red'}},
-					'GT': { attrs: {fill: 'red'}},
+					'TT': { attrs: {fill: 'red'}},
 					'UY': { attrs: {fill: 'red'}},
+					'PY': { attrs: {fill: 'red'}},
+					'AR': { attrs: {fill: 'red'}},
 					'BR': { attrs: {fill: 'red'}},
+					'GT': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -5089,8 +5074,8 @@ let jdata = [
 				],
 				Nsp:3,
 				countries: { areas : {
-					'AO': { attrs: {fill: 'red'}},
 					'ZA': { attrs: {fill: 'red'}},
+					'AO': { attrs: {fill: 'red'}},
 					'SD': { attrs: {fill: 'red'}},
 				},
 				},
@@ -5573,11 +5558,11 @@ let jdata = [
 				],
 				Nsp:8,
 				countries: { areas : {
-					'JP': { attrs: {fill: 'red'}},
-					'CN': { attrs: {fill: 'red'}},
 					'NP': { attrs: {fill: 'red'}},
-					'IN': { attrs: {fill: 'red'}},
 					'TH': { attrs: {fill: 'red'}},
+					'JP': { attrs: {fill: 'red'}},
+					'IN': { attrs: {fill: 'red'}},
+					'CN': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -5697,9 +5682,9 @@ let jdata = [
 				],
 				Nsp:4,
 				countries: { areas : {
+					'GH': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
 					'SD': { attrs: {fill: 'red'}},
-					'GH': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -5761,8 +5746,8 @@ let jdata = [
 				],
 				Nsp:2,
 				countries: { areas : {
-					'CF': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
+					'CF': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -5806,6 +5791,7 @@ let jdata = [
 							1: '<i>Membracioides parallela</i> McAtee and Malloch 1925: 27 [n. sp.]',
 						},
 						countries: { areas : {
+							'MX': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5823,6 +5809,7 @@ let jdata = [
 				],
 				Nsp:2,
 				countries: { areas : {
+					'MX': { attrs: {fill: 'red'}},
 					'PA': { attrs: {fill: 'red'}},
 				},
 				},
@@ -5846,6 +5833,7 @@ let jdata = [
 							1: '<i>Nannocoris anophorus</i> Weirauch et al 2018: 68 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5856,6 +5844,7 @@ let jdata = [
 							1: '<i>Nannocoris arenaria</i> Blatchley 1926: 651 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5868,6 +5857,7 @@ let jdata = [
 							3: '<i>Nannocoris arenarius</i> Weirauch et al 2018: 71 [revised diagnosis and description]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5878,6 +5868,7 @@ let jdata = [
 							1: '<i>Nannocoris arimensis</i> Emsley 1969: 40 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5888,6 +5879,7 @@ let jdata = [
 							1: '<i>Nannocoris brevipilus</i> Weirauch et al 2018: 72 [n. sp.]',
 						},
 						countries: { areas : {
+							'US': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -5929,6 +5921,7 @@ let jdata = [
 							1: '<i>Nannocoris descolei</i> Wygodzinsky 1951: 58 [n. sp.]',
 						},
 						countries: { areas : {
+							'AR': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6002,6 +5995,7 @@ let jdata = [
 							1: '<i>Nannocoris pricei</i> Emsley 1969: 42 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6023,6 +6017,7 @@ let jdata = [
 							1: '<i>Nannocoris tuberculifera</i> McAtee and Malloch 1925: 28 [n. comb]',
 						},
 						countries: { areas : {
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6043,14 +6038,19 @@ let jdata = [
 							1: '<i>Nannocoris wrightae</i> Emsley 1969: 41 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:20,
 				countries: { areas : {
-					'GT': { attrs: {fill: 'red'}},
+					'TT': { attrs: {fill: 'red'}},
+					'AR': { attrs: {fill: 'red'}},
+					'US': { attrs: {fill: 'red'}},
+					'VE': { attrs: {fill: 'red'}},
 					'PA': { attrs: {fill: 'red'}},
+					'GT': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -6122,6 +6122,7 @@ let jdata = [
 							1: '<i>Ogeria arcuata</i> Hill 1990: 711 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6132,6 +6133,7 @@ let jdata = [
 							1: '<i>Ogeria bifurca</i> Hill 1990: 713 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6142,6 +6144,7 @@ let jdata = [
 							1: '<i>Ogeria biprojecta</i> Hill 1990: 715 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6152,6 +6155,7 @@ let jdata = [
 							1: '<i>Ogeria cavatica</i> Hill 1990: 715 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6162,6 +6166,7 @@ let jdata = [
 							1: '<i>Ogeria convexicauda</i> Hill 1990: 701 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6172,6 +6177,7 @@ let jdata = [
 							1: '<i>Ogeria dentispina</i> Hill 1990: 711 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6182,6 +6188,7 @@ let jdata = [
 							1: '<i>Ogeria illumata</i> Hill 1990: 707 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6203,6 +6210,7 @@ let jdata = [
 							1: '<i>Ogeria multidentata</i> Hill 1990: 709 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6213,6 +6221,7 @@ let jdata = [
 							1: '<i>Ogeria obliquicaudata</i> Hill 1990: 707 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6223,6 +6232,7 @@ let jdata = [
 							1: '<i>Ogeria parallela</i> Hill 1990: 713 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6233,6 +6243,7 @@ let jdata = [
 							1: '<i>Ogeria quadridentata</i> Hill 1990: 705 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6243,6 +6254,7 @@ let jdata = [
 							1: '<i>Ogeria quadrivenata</i> Hill 1990: 717 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6253,6 +6265,7 @@ let jdata = [
 							1: '<i>Ogeria spinera</i> Hill 1990: 700 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6272,6 +6285,7 @@ let jdata = [
 				countries: { areas : {
 					'WS': { attrs: {fill: 'red'}},
 					'SC': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -6379,11 +6393,11 @@ let jdata = [
 				],
 				Nsp:6,
 				countries: { areas : {
+					'EC': { attrs: {fill: 'red'}},
+					'CO': { attrs: {fill: 'red'}},
 					'CR': { attrs: {fill: 'red'}},
 					'PA': { attrs: {fill: 'red'}},
-					'EC': { attrs: {fill: 'red'}},
 					'GT': { attrs: {fill: 'red'}},
-					'CO': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -6403,6 +6417,7 @@ let jdata = [
 							1: '<i>Pachyplagia acracantheis</i> Hill 1990: 612 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6413,6 +6428,7 @@ let jdata = [
 							1: '<i>Pachyplagia aremenohylaea</i> Hill 1990: 614 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6446,6 +6462,7 @@ let jdata = [
 							1: '<i>Pachyplagia nesohylaea</i> Hill 1990: 616 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6456,6 +6473,7 @@ let jdata = [
 							1: '<i>Pachyplagia ombriohylaea</i> Hill 1990: 614 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6466,6 +6484,7 @@ let jdata = [
 							1: '<i>Pachyplagia spanohylaea</i> Hill 1990: 613 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6476,14 +6495,15 @@ let jdata = [
 							1: '<i>Pachyplagia sporadohylaea</i> Hill 1990: 611 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:8,
 				countries: { areas : {
-					'AU': { attrs: {fill: 'red'}},
 					'CN': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -6503,6 +6523,7 @@ let jdata = [
 							1: '<i>Pachyplagoides amblia</i> Hill 1992: 253 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6513,6 +6534,7 @@ let jdata = [
 							1: '<i>Pachyplagoides megale</i> Hill 1992: 251 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6523,6 +6545,7 @@ let jdata = [
 							1: '<i>Pachyplagoides monodus</i> Hill 1992: 256 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6534,6 +6557,7 @@ let jdata = [
 							2: '<i>Pachyplagoides regina</i> Hill 1992: 248 [notes]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6555,6 +6579,7 @@ let jdata = [
 							1: '<i>Pachyplagioides sp.1</i> Hill 1992: 251 [descr.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6565,6 +6590,7 @@ let jdata = [
 							1: '<i>Pachyplagioides sp.2</i> Hill 1992: 258 [descr.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6691,10 +6717,10 @@ let jdata = [
 				],
 				Nsp:7,
 				countries: { areas : {
+					'PA': { attrs: {fill: 'red'}},
+					'PE': { attrs: {fill: 'red'}},
 					'EC': { attrs: {fill: 'red'}},
 					'CR': { attrs: {fill: 'red'}},
-					'PE': { attrs: {fill: 'red'}},
-					'PA': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -6768,6 +6794,7 @@ let jdata = [
 							1: '<i>Pinochius australiensis</i> Hill 1985: 276 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6829,9 +6856,10 @@ let jdata = [
 				],
 				Nsp:8,
 				countries: { areas : {
-					'EG': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
+					'EG': { attrs: {fill: 'red'}},
 					'YE': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
 					'CM': { attrs: {fill: 'red'}},
 				},
 				},
@@ -6857,6 +6885,8 @@ let jdata = [
 							5: '<i>Ptenidiophyes mirabilis</i> Carpintero et al. 2006: 2 [distr.]',
 						},
 						countries: { areas : {
+							'AR': { attrs: {fill: 'red'}},
+							'BR': { attrs: {fill: 'red'}},
 							'BR': { attrs: {fill: 'red'}},
 							'GD': { attrs: {fill: 'red'}},
 						},
@@ -6869,12 +6899,15 @@ let jdata = [
 							1: '<i>Ptenidiophyes trinitatis</i> China 1946: 148 [n. sp.]',
 						},
 						countries: { areas : {
+							'TT': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:2,
 				countries: { areas : {
+					'AR': { attrs: {fill: 'red'}},
+					'TT': { attrs: {fill: 'red'}},
 					'GD': { attrs: {fill: 'red'}},
 					'BR': { attrs: {fill: 'red'}},
 				},
@@ -6928,6 +6961,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -6950,6 +6984,7 @@ let jdata = [
 							3: '<i>Schizoptera (Schizoptera) cicadina</i> Reuter 1891: 19 [morph.]',
 						},
 						countries: { areas : {
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -7000,6 +7035,7 @@ let jdata = [
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
 							'GD': { attrs: {fill: 'red'}},
+							'VE': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -7060,12 +7096,14 @@ let jdata = [
 							2: '<i>Schizoptera (Schizoptera) affinis</i> McAtee and Malloch 1925: 22 [descr., s. str.]',
 						},
 						countries: { areas : {
+							'VE': { attrs: {fill: 'red'}},
 						}
 						},
 					},
 					],
 					Nsp:1,
 					countries: { areas : {
+						'VE': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -7088,12 +7126,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
 							'MX': { attrs: {fill: 'red'}},
-							'MX': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
-							'MX': { plotsOn: 'MX', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7104,7 +7138,7 @@ let jdata = [
 							2: '<i>Schizoptera (Lophopleurum) elmis</i> Emsley 1969: 101 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7114,7 +7148,7 @@ let jdata = [
 							1: '<i>Schizoptera (Cantharocoris) hillae</i> Emsley 1969: 59 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7125,7 +7159,7 @@ let jdata = [
 							2: '<i>Schizoptera (Cantharocoris) nigrita</i> Emsley 1969: 99 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'MX': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7135,7 +7169,7 @@ let jdata = [
 							1: '<i>Schizoptera pseudosulcata</i> Emsley 1969: 58 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7148,9 +7182,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7161,9 +7192,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7173,7 +7201,7 @@ let jdata = [
 							1: '<i>Schizoptera (Cantharocoris) rileyi </i> Weirauch et al 2018: 77 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7183,7 +7211,7 @@ let jdata = [
 							1: '<i>Schizoptera (Cantharocoris) scymus</i> McAtee and Malloch 1925: 20 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7196,18 +7224,18 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:10,
 					countries: { areas : {
-						'MX': { attrs: {fill: 'red'}},
-						'GT': { attrs: {fill: 'red'}},
+						'TT': { attrs: {fill: 'red'}},
 						'BR': { attrs: {fill: 'red'}},
 						'GD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'MX': { attrs: {fill: 'red'}},
+						'VE': { attrs: {fill: 'red'}},
+						'GT': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -7231,9 +7259,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MX': { attrs: {fill: 'red'}},
-							'MX': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MX': { plotsOn: 'MX', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7245,9 +7270,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
 						}},
 					},
 					],
@@ -7277,9 +7299,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CU': { attrs: {fill: 'red'}},
-							'CU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CU': { plotsOn: 'CU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7292,9 +7311,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CU': { attrs: {fill: 'red'}},
-							'CU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CU': { plotsOn: 'CU', type: 'circle', size: 50},
 						}},
 					},
 					],
@@ -7322,12 +7338,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
 							'MX': { attrs: {fill: 'red'}},
-							'MX': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
-							'MX': { plotsOn: 'MX', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7339,9 +7351,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GP': { attrs: {fill: 'red'}},
-							'GP': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GP': { plotsOn: 'GP', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7352,7 +7361,7 @@ let jdata = [
 							2: '<i>Schizoptera (Lophopleurum) elmis</i> Emsley 1969: 101 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7362,7 +7371,7 @@ let jdata = [
 							1: '<i>Schizoptera (Lophopleurum) grandis</i> Emsley 1969: 61 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7375,9 +7384,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7388,9 +7394,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7402,9 +7405,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7416,9 +7417,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7428,7 +7427,7 @@ let jdata = [
 							1: '<i>Schizoptera (Lophopleurum) torpedo</i> Emsley 1969: 62 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7441,9 +7440,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7453,7 +7449,7 @@ let jdata = [
 							1: '<i>Schizoptera willinki</i> Wygodzinsky 1951: 56 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'AR': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7463,18 +7459,22 @@ let jdata = [
 							1: '<i>Schizoptera (Lophopleurum) wygodzinskyi</i> Emsley 1969: 62 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:12,
 					countries: { areas : {
-						'MX': { attrs: {fill: 'red'}},
-						'PA': { attrs: {fill: 'red'}},
-						'GD': { attrs: {fill: 'red'}},
-						'GT': { attrs: {fill: 'red'}},
-						'GP': { attrs: {fill: 'red'}},
+						'TT': { attrs: {fill: 'red'}},
 						'BR': { attrs: {fill: 'red'}},
+						'AR': { attrs: {fill: 'red'}},
+						'GP': { attrs: {fill: 'red'}},
+						'GD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'MX': { attrs: {fill: 'red'}},
+						'VE': { attrs: {fill: 'red'}},
+						'PA': { attrs: {fill: 'red'}},
+						'GT': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -7497,7 +7497,6 @@ let jdata = [
 							1: '<i>Schizoptera (Nannocoris) nebulifera</i> Reuter 1891: 23 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -7507,12 +7506,13 @@ let jdata = [
 							1: '<i>Schizoptera (Nannocoris) tuberculifera</i> Reuter 1891: 23 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:2,
 					countries: { areas : {
+						'VE': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -7535,9 +7535,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7548,9 +7545,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CO': { attrs: {fill: 'red'}},
-							'CO': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CO': { plotsOn: 'CO', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7561,9 +7555,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7574,9 +7565,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7588,9 +7576,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7601,9 +7586,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7615,9 +7597,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7629,9 +7608,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7644,9 +7620,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CU': { attrs: {fill: 'red'}},
-							'CU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CU': { plotsOn: 'CU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7658,9 +7631,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7671,9 +7641,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7684,9 +7651,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7698,9 +7662,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7711,9 +7672,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7724,9 +7682,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7737,9 +7692,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CO': { attrs: {fill: 'red'}},
-							'CO': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CO': { plotsOn: 'CO', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7750,9 +7702,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CO': { attrs: {fill: 'red'}},
-							'CO': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CO': { plotsOn: 'CO', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7763,7 +7712,7 @@ let jdata = [
 							2: '<i>Schizoptera (Odontorhagus) kirkpatricki</i> Leon and Weirauch 2016: 272 [descr.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7774,9 +7723,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7787,9 +7733,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7800,9 +7743,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7813,9 +7753,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7826,7 +7763,6 @@ let jdata = [
 							2: '<i>Schizoptera (Odontorhagus) repetita</i> Leon and Weirauch 2016: 278 [descr.]',
 						},
 						countries: { areas : {
-						}, plots : {
 						}},
 					},
 					{
@@ -7837,9 +7773,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7852,9 +7785,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CU': { attrs: {fill: 'red'}},
-							'CU': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CU': { plotsOn: 'CU', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7865,9 +7795,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'CR': { attrs: {fill: 'red'}},
-							'CR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'CR': { plotsOn: 'CR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7878,9 +7805,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7891,7 +7815,7 @@ let jdata = [
 							2: '<i>Schizoptera southwoodi</i> Leon and Weirauch 2016: 280 [descr.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7903,7 +7827,7 @@ let jdata = [
 							3: '<i>Schizoptera (Odontorhagus) stricklandi</i> Leon and Weirauch 2016: 280 [descr.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7914,7 +7838,7 @@ let jdata = [
 							2: '<i>Schizoptera (Odontorhagus) trinitatis</i> Leon and Weirauch 2016: 281 [descr.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -7925,9 +7849,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'EC': { attrs: {fill: 'red'}},
-							'EC': { attrs: {fill: 'red'}},
-						}, plots : {
-							'EC': { plotsOn: 'EC', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -7938,21 +7859,19 @@ let jdata = [
 						},
 						countries: { areas : {
 							'HN': { attrs: {fill: 'red'}},
-							'HN': { attrs: {fill: 'red'}},
-						}, plots : {
-							'HN': { plotsOn: 'HN', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:32,
 					countries: { areas : {
-						'CR': { attrs: {fill: 'red'}},
-						'PA': { attrs: {fill: 'red'}},
+						'CU': { attrs: {fill: 'red'}},
+						'TT': { attrs: {fill: 'red'}},
 						'HN': { attrs: {fill: 'red'}},
 						'EC': { attrs: {fill: 'red'}},
-						'GT': { attrs: {fill: 'red'}},
 						'CO': { attrs: {fill: 'red'}},
-						'CU': { attrs: {fill: 'red'}},
+						'CR': { attrs: {fill: 'red'}},
+						'PA': { attrs: {fill: 'red'}},
+						'GT': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -7973,9 +7892,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					],
@@ -8006,7 +7922,7 @@ let jdata = [
 							2: '<i>Schizoptera (Schizoptera) affinis</i> McAtee and Malloch 1925: 22 [descr., s. str.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8016,7 +7932,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) anisota</i> Emsley 1969: 56 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8026,7 +7942,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) apatosulcata</i> Emsley 1969: 57 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8039,9 +7955,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8052,9 +7966,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8064,7 +7975,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) brucei</i> Emsley 1969: 55 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8074,7 +7985,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) caprona</i> Emsley 1969: 54 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8084,7 +7995,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) caudata</i> McAtee and Malloch 1925: 21 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'MX': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8094,7 +8005,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) chelifera</i> Emsley 1969: 56 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8106,7 +8017,7 @@ let jdata = [
 							3: '<i>Schizoptera (Schizoptera) cicadina</i> Reuter 1891: 19 [morph.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8116,7 +8027,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) cleofan</i> Emsley 1969: 57 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8126,7 +8037,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) erythiza</i> Emsley 1969: 53 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8136,7 +8047,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) falcicula</i> Emsley 1969: 57 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8150,12 +8061,8 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
 							'GD': { attrs: {fill: 'red'}},
-							'GD': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
-							'GD': { plotsOn: 'GD', type: 'circle', size: 50},
+							'VE': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8165,7 +8072,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) griffithi</i> Emsley 1969: 53 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8176,9 +8083,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'MX': { attrs: {fill: 'red'}},
-							'MX': { attrs: {fill: 'red'}},
-						}, plots : {
-							'MX': { plotsOn: 'MX', type: 'circle', size: 50},
+							'US': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8189,12 +8094,7 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8204,7 +8104,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) kennyi</i> Emsley 1969: 52 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8215,9 +8115,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PA': { attrs: {fill: 'red'}},
-							'PA': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PA': { plotsOn: 'PA', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8227,7 +8124,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) maxima</i> Emsley 1969: 51 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8237,7 +8134,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) merleae</i> Emsley 1969: 54 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8247,7 +8144,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) mexicana</i> McAtee and Malloch 1925: 21 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'MX': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8257,7 +8154,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) monrosi</i> Wygodzinsky 1951: 65 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'AR': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8268,7 +8165,7 @@ let jdata = [
 							2: '<i>Schizoptera (Cantharocoris) nigrita</i> Emsley 1969: 99 [n. comb]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'MX': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8279,9 +8176,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'PY': { attrs: {fill: 'red'}},
-							'PY': { attrs: {fill: 'red'}},
-						}, plots : {
-							'PY': { plotsOn: 'PY', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8292,9 +8186,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8304,7 +8195,7 @@ let jdata = [
 							1: '<i>Schizoptera psalida</i> Emsley 1969: 56 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8317,9 +8208,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'BR': { attrs: {fill: 'red'}},
-							'BR': { attrs: {fill: 'red'}},
-						}, plots : {
-							'BR': { plotsOn: 'BR', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8330,9 +8218,6 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					{
@@ -8342,7 +8227,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) richardsi</i> Emsley 1969: 54 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8352,7 +8237,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) rossi</i> Emsley 1969: 52 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8362,7 +8247,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) spiralis</i> Emsley 1969: 55 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8372,7 +8257,7 @@ let jdata = [
 							1: '<i>Schizoptera (Schizoptera) susicauda</i> Emsley 1969: 53 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8383,20 +8268,21 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
 						}},
 					},
 					],
 					Nsp:34,
 					countries: { areas : {
+						'TT': { attrs: {fill: 'red'}},
+						'PY': { attrs: {fill: 'red'}},
+						'BR': { attrs: {fill: 'red'}},
+						'AR': { attrs: {fill: 'red'}},
+						'GD': { attrs: {fill: 'red'}},
+						'US': { attrs: {fill: 'red'}},
+						'VE': { attrs: {fill: 'red'}},
 						'MX': { attrs: {fill: 'red'}},
 						'PA': { attrs: {fill: 'red'}},
-						'GD': { attrs: {fill: 'red'}},
-						'PY': { attrs: {fill: 'red'}},
 						'GT': { attrs: {fill: 'red'}},
-						'BR': { attrs: {fill: 'red'}},
 					},
 					},
 				},
@@ -8415,7 +8301,7 @@ let jdata = [
 							1: '<i>Schizoptera (Zygophleps) corallia</i> Emsley 1969: 67 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8425,7 +8311,7 @@ let jdata = [
 							1: '<i>Schizoptera (Zygophleps) simla</i> Emsley 1969: 66 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8435,7 +8321,7 @@ let jdata = [
 							1: '<i>Schizoptera (Zygophleps) ultima</i> Emsley 1969: 67 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					{
@@ -8447,14 +8333,13 @@ let jdata = [
 						},
 						countries: { areas : {
 							'GT': { attrs: {fill: 'red'}},
-							'GT': { attrs: {fill: 'red'}},
-						}, plots : {
-							'GT': { plotsOn: 'GT', type: 'circle', size: 50},
+							'TT': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:4,
 					countries: { areas : {
+						'TT': { attrs: {fill: 'red'}},
 						'GT': { attrs: {fill: 'red'}},
 					},
 					},
@@ -8462,6 +8347,7 @@ let jdata = [
 				],
 				Nsp:111,
 				countries: { areas : {
+					'TT': { attrs: {fill: 'red'}},
 					'GT': { attrs: {fill: 'red'}},
 				},
 				},
@@ -8664,6 +8550,7 @@ let jdata = [
 							1: '<i>Silhouettanus bamaganus</i> Hill 2014: 360 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8696,6 +8583,7 @@ let jdata = [
 							1: '<i>Silhouettanus lintrarius</i> Hill 2014: 365 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8706,6 +8594,7 @@ let jdata = [
 							1: '<i>Silhouettanus magnus</i> Hill 2014: 369 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8716,6 +8605,7 @@ let jdata = [
 							1: '<i>Silhouettanus monteithi</i> Hill 2014: 369 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8726,6 +8616,7 @@ let jdata = [
 							1: '<i>Silhouettanus pilosus</i> Hill 2014: 374 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8736,6 +8627,7 @@ let jdata = [
 							1: '<i>Silhouettanus tinnulus</i> Hill 2014: 374 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -8746,14 +8638,16 @@ let jdata = [
 							1: '<i>Silhouettanus turbator</i> Hill 2014: 374 [n. sp.]',
 						},
 						countries: { areas : {
+							'AU': { attrs: {fill: 'red'}},
 						},
 						},
 					},
 				],
 				Nsp:10,
 				countries: { areas : {
-					'SC': { attrs: {fill: 'red'}},
+					'AU': { attrs: {fill: 'red'}},
 					'NC': { attrs: {fill: 'red'}},
+					'SC': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -8919,101 +8813,106 @@ let jdata = [
 				],
 				Nsp:3,
 				countries: { areas : {
-					'SR': { attrs: {fill: 'red'}},
-					'PE': { attrs: {fill: 'red'}},
 					'BR': { attrs: {fill: 'red'}},
+					'PE': { attrs: {fill: 'red'}},
+					'SR': { attrs: {fill: 'red'}},
 				},
 				},
 			},
 		],
 		Nsp:333,
 		countries: { areas : {
-			'CF': { attrs: {fill: 'red'}},
-			'MX': { attrs: {fill: 'red'}},
-			'GU': { attrs: {fill: 'red'}},
-			'PG': { attrs: {fill: 'red'}},
-			'GT': { attrs: {fill: 'red'}},
-			'GH': { attrs: {fill: 'red'}},
-			'EG': { attrs: {fill: 'red'}},
+			'GF': { attrs: {fill: 'red'}},
+			'PE': { attrs: {fill: 'red'}},
+			'CU': { attrs: {fill: 'red'}},
 			'HN': { attrs: {fill: 'red'}},
+			'AR': { attrs: {fill: 'red'}},
+			'GP': { attrs: {fill: 'red'}},
+			'US': { attrs: {fill: 'red'}},
+			'VE': { attrs: {fill: 'red'}},
+			'NP': { attrs: {fill: 'red'}},
+			'YE': { attrs: {fill: 'red'}},
 			'JP': { attrs: {fill: 'red'}},
 			'SR': { attrs: {fill: 'red'}},
-			'NI': { attrs: {fill: 'red'}},
-			'NP': { attrs: {fill: 'red'}},
-			'IN': { attrs: {fill: 'red'}},
-			'EC': { attrs: {fill: 'red'}},
-			'WS': { attrs: {fill: 'red'}},
-			'CO': { attrs: {fill: 'red'}},
-			'AO': { attrs: {fill: 'red'}},
-			'CN': { attrs: {fill: 'red'}},
-			'SC': { attrs: {fill: 'red'}},
-			'GF': { attrs: {fill: 'red'}},
-			'YE': { attrs: {fill: 'red'}},
+			'GT': { attrs: {fill: 'red'}},
+			'GU': { attrs: {fill: 'red'}},
+			'EG': { attrs: {fill: 'red'}},
 			'PY': { attrs: {fill: 'red'}},
-			'TH': { attrs: {fill: 'red'}},
 			'GD': { attrs: {fill: 'red'}},
+			'PG': { attrs: {fill: 'red'}},
+			'NI': { attrs: {fill: 'red'}},
 			'LK': { attrs: {fill: 'red'}},
+			'EC': { attrs: {fill: 'red'}},
 			'CM': { attrs: {fill: 'red'}},
-			'GP': { attrs: {fill: 'red'}},
-			'ZA': { attrs: {fill: 'red'}},
-			'CR': { attrs: {fill: 'red'}},
-			'PE': { attrs: {fill: 'red'}},
-			'PA': { attrs: {fill: 'red'}},
-			'AU': { attrs: {fill: 'red'}},
-			'AR': { attrs: {fill: 'red'}},
-			'NC': { attrs: {fill: 'red'}},
-			'SD': { attrs: {fill: 'red'}},
+			'TT': { attrs: {fill: 'red'}},
+			'AO': { attrs: {fill: 'red'}},
 			'UY': { attrs: {fill: 'red'}},
+			'SC': { attrs: {fill: 'red'}},
+			'MX': { attrs: {fill: 'red'}},
+			'ZA': { attrs: {fill: 'red'}},
+			'AU': { attrs: {fill: 'red'}},
+			'TH': { attrs: {fill: 'red'}},
+			'CF': { attrs: {fill: 'red'}},
+			'IN': { attrs: {fill: 'red'}},
+			'CN': { attrs: {fill: 'red'}},
+			'GH': { attrs: {fill: 'red'}},
+			'CO': { attrs: {fill: 'red'}},
 			'BR': { attrs: {fill: 'red'}},
-			'CU': { attrs: {fill: 'red'}},
+			'SD': { attrs: {fill: 'red'}},
+			'WS': { attrs: {fill: 'red'}},
+			'NC': { attrs: {fill: 'red'}},
+			'CR': { attrs: {fill: 'red'}},
+			'PA': { attrs: {fill: 'red'}},
 		},
 		},
 	},
 	],
 	Nsp:425,
 	countries: { areas : {
-		'CF': { attrs: {fill: 'red'}},
-		'MX': { attrs: {fill: 'red'}},
-		'GU': { attrs: {fill: 'red'}},
-		'PG': { attrs: {fill: 'red'}},
-		'MG': { attrs: {fill: 'red'}},
-		'GT': { attrs: {fill: 'red'}},
-		'GH': { attrs: {fill: 'red'}},
-		'EG': { attrs: {fill: 'red'}},
+		'GF': { attrs: {fill: 'red'}},
+		'CU': { attrs: {fill: 'red'}},
+		'PE': { attrs: {fill: 'red'}},
 		'HN': { attrs: {fill: 'red'}},
+		'AR': { attrs: {fill: 'red'}},
+		'GP': { attrs: {fill: 'red'}},
+		'US': { attrs: {fill: 'red'}},
+		'VE': { attrs: {fill: 'red'}},
+		'NP': { attrs: {fill: 'red'}},
+		'YE': { attrs: {fill: 'red'}},
 		'JP': { attrs: {fill: 'red'}},
 		'SR': { attrs: {fill: 'red'}},
+		'GT': { attrs: {fill: 'red'}},
+		'GU': { attrs: {fill: 'red'}},
+		'EG': { attrs: {fill: 'red'}},
+		'PY': { attrs: {fill: 'red'}},
+		'MG': { attrs: {fill: 'red'}},
+		'GD': { attrs: {fill: 'red'}},
+		'PG': { attrs: {fill: 'red'}},
 		'NI': { attrs: {fill: 'red'}},
-		'NP': { attrs: {fill: 'red'}},
-		'IN': { attrs: {fill: 'red'}},
 		'PH': { attrs: {fill: 'red'}},
 		'EC': { attrs: {fill: 'red'}},
-		'WS': { attrs: {fill: 'red'}},
-		'CO': { attrs: {fill: 'red'}},
-		'NZ': { attrs: {fill: 'red'}},
-		'AO': { attrs: {fill: 'red'}},
-		'CN': { attrs: {fill: 'red'}},
-		'SC': { attrs: {fill: 'red'}},
-		'GF': { attrs: {fill: 'red'}},
-		'YE': { attrs: {fill: 'red'}},
-		'PY': { attrs: {fill: 'red'}},
-		'TH': { attrs: {fill: 'red'}},
-		'GD': { attrs: {fill: 'red'}},
 		'LK': { attrs: {fill: 'red'}},
 		'CM': { attrs: {fill: 'red'}},
-		'GP': { attrs: {fill: 'red'}},
-		'ZA': { attrs: {fill: 'red'}},
 		'TT': { attrs: {fill: 'red'}},
-		'CR': { attrs: {fill: 'red'}},
-		'PE': { attrs: {fill: 'red'}},
-		'PA': { attrs: {fill: 'red'}},
-		'AU': { attrs: {fill: 'red'}},
-		'AR': { attrs: {fill: 'red'}},
-		'NC': { attrs: {fill: 'red'}},
-		'SD': { attrs: {fill: 'red'}},
+		'AO': { attrs: {fill: 'red'}},
 		'UY': { attrs: {fill: 'red'}},
+		'SC': { attrs: {fill: 'red'}},
+		'MX': { attrs: {fill: 'red'}},
+		'ZA': { attrs: {fill: 'red'}},
+		'AU': { attrs: {fill: 'red'}},
+		'TH': { attrs: {fill: 'red'}},
+		'CF': { attrs: {fill: 'red'}},
+		'IN': { attrs: {fill: 'red'}},
+		'CN': { attrs: {fill: 'red'}},
+		'NZ': { attrs: {fill: 'red'}},
+		'GH': { attrs: {fill: 'red'}},
+		'CO': { attrs: {fill: 'red'}},
 		'BR': { attrs: {fill: 'red'}},
-		'CU': { attrs: {fill: 'red'}},
+		'SD': { attrs: {fill: 'red'}},
+		'WS': { attrs: {fill: 'red'}},
+		'NC': { attrs: {fill: 'red'}},
+		'CR': { attrs: {fill: 'red'}},
+		'PA': { attrs: {fill: 'red'}},
 	},
 	},
 },
@@ -9099,18 +8998,20 @@ let jdata = [
 							1: '<i>Ceratocombus (Trichotonannus) setulosus</i> Reuter 1891: 6 [n. sp.]',
 						},
 						countries: { areas : {
-						}, plots : {
+							'BR': { attrs: {fill: 'red'}},
 						}},
 					},
 					],
 					Nsp:1,
 					countries: { areas : {
+						'BR': { attrs: {fill: 'red'}},
 					},
 					},
 				},
 				],
 				Nsp:1,
 				countries: { areas : {
+					'BR': { attrs: {fill: 'red'}},
 				},
 				},
 			},
@@ -9196,6 +9097,7 @@ let jdata = [
 							2: '<i>Trichotonannus setulosus</i> Wygodzinsky 1947: 120 [descr., distr.]',
 						},
 						countries: { areas : {
+							'BR': { attrs: {fill: 'red'}},
 						},
 						},
 					},
@@ -9212,20 +9114,22 @@ let jdata = [
 				],
 				Nsp:7,
 				countries: { areas : {
-					'PH': { attrs: {fill: 'red'}},
 					'AO': { attrs: {fill: 'red'}},
-					'SD': { attrs: {fill: 'red'}},
 					'MG': { attrs: {fill: 'red'}},
+					'BR': { attrs: {fill: 'red'}},
+					'SD': { attrs: {fill: 'red'}},
+					'PH': { attrs: {fill: 'red'}},
 				},
 				},
 			},
 	],
 	Nsp:8,
 	countries: { areas : {
-		'PH': { attrs: {fill: 'red'}},
 		'AO': { attrs: {fill: 'red'}},
-		'SD': { attrs: {fill: 'red'}},
 		'MG': { attrs: {fill: 'red'}},
+		'BR': { attrs: {fill: 'red'}},
+		'SD': { attrs: {fill: 'red'}},
+		'PH': { attrs: {fill: 'red'}},
 	},
 	},
 },
