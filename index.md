@@ -5,7 +5,7 @@ layout: default2
 
 <img align="right" src="assets/images/photo.jpg">
 
-Hi! My name is Alex. I am a Postdoctoral Scholar at the University of California Riverside (UCR), currently working on Phylogenomics of Reduvioidea. Feel free to visit my page on [the Dr. Weirauch's Website](https://heteroptera.ucr.edu/index.php/people/knyshov)
+Hi! My name is Alex. I am a Postdoctoral Research Fellow in the Schwartz lab at the University of Rhode Island, currently working on examination of phylogenomic datasets using a variety of computational tools, including machine learning. Feel free to visit [Dr. Schwartz's lab website](https://schwartzlaburi.github.io/) to learn more.
 
 One of my research interests is a high-throughput data processing, particularly dealing with the DNA sequencing data. This web site will reference some of the bioinformatic tools I use in my research. [This repository](https://github.com/AlexKnyshov/main_repo) is my main storage of (mostly) utility scripts, primarily written in Python and R. Specific bioinformatic tools and projects have their own repositories and can be found [here](https://github.com/AlexKnyshov).
 
